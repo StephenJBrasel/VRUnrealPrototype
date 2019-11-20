@@ -1,0 +1,1 @@
+../../../VRHalloweenPrototype/VRHalloweenPrototype.uproject  /Game/VirtualRealityBP/Maps/HMDLocomotionMap -Messaging -SessionId=F5EE8BFF4BBC3584BF470E9D700A1597 -SessionOwner="Stephen" -SessionName="Launch On Device" -iterative
