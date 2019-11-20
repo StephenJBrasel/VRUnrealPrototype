@@ -147,8 +147,8 @@ Windows.Engine:/Script/UdpMessaging.UdpMessagingSettings:TunnelUnicastEndpoint:0
 Windows.Engine:/Script/UdpMessaging.UdpMessagingSettings:TunnelMulticastEndpoint:0=
 Windows.Engine:/Script/LuminPlatformEditor.MagicLeapSDKSettings:MLSDKPath:0=(Path="")
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/HMDLocomotionMap.HMDLocomotionMap
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry.Entry
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Script/Engine.GameModeBase
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:LocalMapOptions:0=
