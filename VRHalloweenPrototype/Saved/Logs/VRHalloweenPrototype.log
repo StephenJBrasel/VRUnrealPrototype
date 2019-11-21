@@ -729,3 +729,6 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.21-19.36.46:786][977]LogSlate: Window 'Source Control Login' being destroyed
 [2019.11.21-19.37.07:238][146]LogSavePackage: Moving '../../../../../../Users/Stephen/Dropbox/Projects/Unreal Engine/VRUnrealPrototype/VRHalloweenPrototype/Saved/Candy8D0B42884B483FA70EF8B7A408EA34B0.tmp' to '../../../../../../Users/Stephen/Dropbox/Projects/Unreal Engine/VRUnrealPrototype/VRHalloweenPrototype/Content/Geometry/Meshes/Candy.uasset'
 [2019.11.21-19.37.11:538][343]LogSavePackage: Moving '../../../../../../Users/Stephen/Dropbox/Projects/Unreal Engine/VRUnrealPrototype/VRHalloweenPrototype/Saved/Candy_395C002F248EDE0E3E2A1468A072CFF7B.tmp' to '../../../../../../Users/Stephen/Dropbox/Projects/Unreal Engine/VRUnrealPrototype/VRHalloweenPrototype/Content/Geometry/Meshes/Candy_3.uasset'
+[2019.11.21-19.40.40:902][186]LogSlate: Window 'Reference Viewer' being destroyed
+[2019.11.21-19.40.40:914][186]LogSlate: Window 'Reference Viewer' being destroyed
+[2019.11.21-19.40.44:301][365]LogSavePackage: Moving '../../../../../../Users/Stephen/Dropbox/Projects/Unreal Engine/VRUnrealPrototype/VRHalloweenPrototype/Saved/Inside7897F36147B2F47D03D843B9D2DA9E3D.tmp' to '../../../../../../Users/Stephen/Dropbox/Projects/Unreal Engine/VRUnrealPrototype/VRHalloweenPrototype/Content/Geometry/Meshes/Inside.uasset'
