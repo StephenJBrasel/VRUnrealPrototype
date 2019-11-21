@@ -1,0 +1,2 @@
+VRHalloweenPrototype/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap
+VRHalloweenPrototype/Content/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData.uasset
