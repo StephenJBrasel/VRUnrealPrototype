@@ -1,4 +1,4 @@
-﻿Log file open, 11/22/19 11:45:53
+﻿Log file open, 11/26/19 09:10:57
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: VRHalloweenPrototype
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.103376
+LogStats: Stats thread started at 0.148504
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,664 +157,1017 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.11.22-16.45.53:597][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.11.22-16.45.53:597][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.11.22-16.45.53:597][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Engine.ini]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.MobileHDR:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
-[2019.11.22-16.45.53:598][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Engine.ini]
-[2019.11.22-16.45.53:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Engine.ini]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Engine.ini]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.11.22-16.45.53:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Engine.ini]
-[2019.11.22-16.45.53:599][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Engine.ini]
-[2019.11.22-16.45.53:604][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.11.22-16.45.53:604][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.11.22-16.45.53:605][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.11.22-16.45.53:605][  0]LogInit: Selected Device Profile: [Windows]
-[2019.11.22-16.45.53:605][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.11.22-16.45.53:608][  0]LogHAL: Display: Platform has ~ 16 GB [17053204480 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.11.22-16.45.53:608][  0]LogInit: Going up to parent DeviceProfile []
-[2019.11.22-16.45.53:608][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.11.22-16.45.53:608][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.11.22-16.45.53:609][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Engine.ini]
-[2019.11.22-16.45.53:609][  0]LogInit: Computer: LILINBET
-[2019.11.22-16.45.53:609][  0]LogInit: User: CBVeLuMe
-[2019.11.22-16.45.53:609][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.11.22-16.45.53:609][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.11.22-16.45.53:610][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.11.22-16.45.53:610][  0]LogMemory: Platform Memory Stats for Windows
-[2019.11.22-16.45.53:610][  0]LogMemory: Process Physical Memory: 101.50 MB used, 101.50 MB peak
-[2019.11.22-16.45.53:610][  0]LogMemory: Process Virtual Memory: 99.03 MB used, 99.03 MB peak
-[2019.11.22-16.45.53:610][  0]LogMemory: Physical Memory: 7780.52 MB used,  8482.68 MB free, 16263.20 MB total
-[2019.11.22-16.45.53:610][  0]LogMemory: Virtual Memory: 4681.34 MB used,  134213048.00 MB free, 134217728.00 MB total
-[2019.11.22-16.45.53:616][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.11.22-16.45.53:637][  0]LogInit: Using OS detected language (en-US).
-[2019.11.22-16.45.53:637][  0]LogInit: Using OS detected locale (en-US).
-[2019.11.22-16.45.53:638][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.11.22-16.45.53:825][  0]LogInit: Setting process to per monitor DPI aware
-[2019.11.22-16.45.53:924][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.11.22-16.45.53:924][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.11.22-16.45.54:251][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.11.22-16.45.54:251][  0]LogD3D11RHI: D3D11 adapters:
-[2019.11.22-16.45.54:353][  0]LogD3D11RHI:    0. 'NVIDIA Quadro P5000' (Feature Level 11_0)
-[2019.11.22-16.45.54:354][  0]LogD3D11RHI:       16257/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.11.22-16.45.54:369][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.11.22-16.45.54:369][  0]LogD3D11RHI:       128/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.11.22-16.45.54:372][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.11.22-16.45.54:372][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.11.22-16.45.54:372][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.11.22-16.45.54:417][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.11.22-16.45.54:417][  0]LogD3D11RHI:     GPU DeviceId: 0x1bb6 (for the marketing name, search the web for "GPU Device Id")
-[2019.11.22-16.45.54:417][  0]LogWindows: EnumDisplayDevices:
-[2019.11.22-16.45.54:418][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2019.11.22-16.45.54:418][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.11.22-16.45.54:418][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.11.22-16.45.54:419][  0]LogWindows:    3. 'NVIDIA Quadro P5000' (P:0 D:1)
-[2019.11.22-16.45.54:419][  0]LogWindows:    4. 'NVIDIA Quadro P5000' (P:0 D:0)
-[2019.11.22-16.45.54:419][  0]LogWindows:    5. 'NVIDIA Quadro P5000' (P:0 D:0)
-[2019.11.22-16.45.54:420][  0]LogWindows:    6. 'NVIDIA Quadro P5000' (P:0 D:0)
-[2019.11.22-16.45.54:420][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.11.22-16.45.54:420][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro P5000
-[2019.11.22-16.45.54:420][  0]LogD3D11RHI:   Driver Version: 430.39 (internal:26.21.14.3039, unified:430.39)
-[2019.11.22-16.45.54:420][  0]LogD3D11RHI:      Driver Date: 4-17-2019
-[2019.11.22-16.45.54:420][  0]LogRHI: Texture pool is 11379 MB (70% of 16257 MB)
-[2019.11.22-16.45.54:484][  0]LogD3D11RHI: Async texture creation enabled
-[2019.11.22-16.45.54:502][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.11.22-16.45.54:957][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.11.22-16.45.54:971][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.11.22-16.45.54:982][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.11.22-16.45.54:995][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.11.22-16.45.55:006][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.11.22-16.45.55:020][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.11.22-16.45.55:035][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.11.22-16.45.55:047][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.11.22-16.45.55:054][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.11.22-16.45.55:098][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.11.22-16.45.55:098][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.11.22-16.45.55:098][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.11.22-16.45.55:099][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.11.22-16.45.55:099][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.11.22-16.45.55:099][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.11.22-16.45.55:099][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.11.22-16.45.55:100][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.11.22-16.45.55:100][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.11.22-16.45.55:100][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.11.22-16.45.55:100][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.11.22-16.45.55:100][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.11.22-16.45.55:100][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.11.22-16.45.55:100][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.11.22-16.45.55:100][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.11.22-16.45.55:100][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.11.22-16.45.55:100][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.11.22-16.45.55:100][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.11.22-16.45.55:100][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.11.22-16.45.55:120][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.11.22-16.45.55:120][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.11.22-16.45.55:140][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.11.22-16.45.55:140][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.11.22-16.45.55:148][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.11.22-16.45.55:157][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.11.22-16.45.55:168][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.11.22-16.45.55:178][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.11.22-16.45.55:205][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.11.22-16.45.55:205][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.11.22-16.45.55:205][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.11.22-16.45.55:216][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.11.22-16.45.55:293][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Intermediate/Shaders/WorkingDirectory/4256/).
-[2019.11.22-16.45.55:293][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/CBVeLuMe/AppData/Local/Temp/UnrealShaderWorkingDir/D999B1DA42F96C606A8ED293D4DE2CEA/'.
-[2019.11.22-16.45.55:296][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.11.22-16.45.55:296][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.11.22-16.45.55:296][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.11.22-16.45.56:007][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.11.22-16.45.56:080][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/CBVeLuMe/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.11.22-16.45.56:080][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/CBVeLuMe/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.11.22-16.45.56:080][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.11.22-16.45.56:080][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.11.22-16.45.56:080][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.11.22-16.45.56:080][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.11.22-16.45.56:092][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.11.22-16.45.56:092][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.11.22-16.45.56:092][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.11.22-16.45.56:093][  0]LogDerivedDataCache: Using Local data cache path C:/Users/CBVeLuMe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.11.22-16.45.56:093][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.11.22-16.45.56:093][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.11.22-16.45.56:123][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.11.22-16.45.56:126][  0]LogSlate: Using FreeType 2.6.0
-[2019.11.22-16.45.56:127][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.11.22-16.45.56:189][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
-[2019.11.22-16.45.56:520][  0]LogInit: Selected Device Profile: [Windows]
-[2019.11.22-16.45.56:694][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.11.22-16.45.56:694][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.11.22-16.45.56:694][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.11.22-16.45.56:694][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.11.22-16.45.56:694][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.11.22-16.45.56:706][  0]LogNetVersion: VRHalloweenPrototype 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1055832047)
-[2019.11.22-16.45.57:223][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.069064 seconds
-[2019.11.22-16.45.57:234][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.11.22-16.45.57:234][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.11.22-16.45.57:234][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.11.22-16.45.58:374][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.11.22-16.45.58:377][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.11.22-16.45.58:435][  0]SourceControl: Source control is disabled
-[2019.11.22-16.45.59:036][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.11.22-16.45.59:216][  0]LogOcInput: OculusInput pre-init called
-[2019.11.22-16.45.59:222][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.11.22-16.45.59:222][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.11.22-16.45.59:305][  0]LogEngine: Initializing Engine...
-[2019.11.22-16.45.59:306][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.11.22-16.45.59:307][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.11.22-16.45.59:575][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.11.22-16.45.59:599][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.11.22-16.45.59:636][  0]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.22-16.45.59:754][  0]LogInit: FAudioDevice initialized.
-[2019.11.22-16.45.59:755][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.11.22-16.45.59:817][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/CBVeLuMe/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.11.22-16.45.59:831][  0]LogInit: Texture streaming: Enabled
-[2019.11.22-16.45.59:852][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.11.22-16.45.59:852][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2019.11.22-16.45.59:853][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2019.11.22-16.45.59:922][  0]LogInit: Transaction tracking system initialized
-[2019.11.22-16.45.59:958][  0]BlueprintLog: New page: Editor Load
-[2019.11.22-16.46.00:059][  0]LocalizationService: Localization service is disabled
-[2019.11.22-16.46.00:356][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.11.22-16.46.00:356][  0]LogCook: Display: Mobile HDR setting 0
-[2019.11.22-16.46.00:555][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/' took 0.04s
-[2019.11.22-16.46.00:555][  0]Cmd: MAP LOAD FILE="../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.11.22-16.46.00:556][  0]LightingResults: New page: Lighting Build
-[2019.11.22-16.46.00:559][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.11.22-16.46.00:560][  0]MapCheck: New page: Map Check
-[2019.11.22-16.46.00:560][  0]LightingResults: New page: Lighting Build
-[2019.11.22-16.46.00:586][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
-[2019.11.22-16.46.01:149][  0]LogAIModule: Creating AISystem for world MotionControllerMap
-[2019.11.22-16.46.01:159][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.11.22-16.46.01:192][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
-[2019.11.22-16.46.01:193][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.11.22-16.46.01:193][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.179ms to complete.
-[2019.11.22-16.46.01:193][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 0.637
-[2019.11.22-16.46.01:365][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.22-16.46.01:378][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.22-16.46.01:388][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.22-16.46.01:402][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.22-16.46.01:413][  0]LogCollectionManager: Loaded 0 collections in 0.002987 seconds
-[2019.11.22-16.46.01:422][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Collections/' took 0.00s
-[2019.11.22-16.46.01:422][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Developers/CBVeLuMe/Collections/' took 0.00s
-[2019.11.22-16.46.01:422][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Collections/' took 0.00s
-[2019.11.22-16.46.01:422][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2019.11.22-16.46.01:434][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2863 classes and 680 folders.
-[2019.11.22-16.46.01:445][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.11.22-16.46.01:500][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.11.22-16.46.01:509][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.11.22-16.46.01:544][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.11.22-16.46.01:546][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.11.22-16.46.01:560][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.11.22-16.46.01:560][  0]LogLoad: (Engine Initialization) Total time: 9.30 seconds
-[2019.11.22-16.46.01:560][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.11.22-16.46.01:612][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.11.22-16.46.01:621][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.11.22-16.46.01:694][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.11.22-16.46.01:737][  1]LogRenderer: Reallocating scene render targets to support 804x360 Format 26 NumSamples 1 (Frame:1).
-[2019.11.22-16.46.02:611][ 47]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.11.22-16.46.06:772][278]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/' took 5.19s
-[2019.11.22-16.46.21:437][130]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.22-16.46.21:646][134]LogRenderer: Reallocating scene render targets to support 1208x572 Format 26 NumSamples 1 (Frame:1132).
-[2019.11.22-16.46.22:028][154]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
-[2019.11.22-16.46.25:805][379]LogAssetRegistry: Asset discovery search completed in 29.6176 seconds
-[2019.11.22-16.46.25:810][379]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
-[2019.11.22-16.46.26:712][430]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/VirtualRealityBP/Blueprints/CandyPrompt.CandyPrompt
-[2019.11.22-16.46.27:029][430]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
-[2019.11.22-16.46.28:334][430]LogSlate: Took 0.004724 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.11.22-16.46.45:985][426]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.11.22-16.46.55:534][980]LogSlate: Window 'CandyPrompt' being destroyed
-[2019.11.22-16.47.39:713][604]LogEditorTransaction: Undo Delete current selection
-[2019.11.22-16.47.40:578][640]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/CandyPrompt82D3D850435EB52F6BC413BF37DD0506.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/CandyPrompt.uasset'
-[2019.11.22-16.48.17:494][618]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap
-[2019.11.22-16.48.23:239][921]LogUObjectHash: Compacting FUObjectHashTables data took   5.71ms
-[2019.11.22-16.48.23:531][921]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MotionControllerMapB6A3EDBB454F00867458CC9A473FC776.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2019.11.22-16.48.23:598][921]LogFileHelpers: Saving map 'MotionControllerMap' took 0.433
-[2019.11.22-16.48.25:614][ 40]BlueprintLog: New page: Compile MotionControllerMap
-[2019.11.22-16.48.25:842][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
-[2019.11.22-16.48.27:822][157]BlueprintLog: New page: Compile CandyPrompt
-[2019.11.22-16.48.27:864][157]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
-[2019.11.22-16.48.29:759][268]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.22-16.48.29:788][268]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2019.11.22-16.48.29:788][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.22-16.48.29:789][268]PIE: New page: PIE session: MotionControllerMap (Nov 22, 2019, 6:48:29 AM)
-[2019.11.22-16.48.29:790][268]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2019.11.22-16.48.29:790][268]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
-[2019.11.22-16.48.29:803][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011923s)
-[2019.11.22-16.48.29:804][268]LogAIModule: Creating AISystem for world MotionControllerMap
-[2019.11.22-16.48.29:804][268]LogPlayLevel: PIE: World Init took: (0.001711s)
-[2019.11.22-16.48.29:805][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.014077s)
-[2019.11.22-16.48.29:845][268]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
-[2019.11.22-16.48.29:879][268]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.22-16.48.29:898][268]LogInit: FAudioDevice initialized.
-[2019.11.22-16.48.29:906][268]LogLoad: Game class is 'GameModeBase'
-[2019.11.22-16.48.29:908][268]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2019.11.22-11.48.29
-[2019.11.22-16.48.29:909][268]LogWorld: Bringing up level for play took: 0.002096
-[2019.11.22-16.48.29:909][268]LogOnline: OSS: Creating online subsystem instance for: :Context_6
-[2019.11.22-16.48.29:917][268]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2019.11.22-16.48.29:920][268]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.139
-[2019.11.22-16.48.29:921][268]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2019.11.22-16.48.34:124][498]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2019.11.22-16.48.34:125][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.22-16.48.34:125][498]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
-[2019.11.22-16.48.34:125][498]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
-[2019.11.22-16.48.34:135][498]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.22-16.48.34:135][498]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2019.11.22-16.48.34:189][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.22-16.48.34:214][498]LogUObjectHash: Compacting FUObjectHashTables data took   5.17ms
-[2019.11.22-16.48.34:235][499]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2019.11.22-16.48.34:878][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.11.22-16.48.36:298][607]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
-[2019.11.22-16.48.36:567][607]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MotionControllerMap97912D594338B0B36EBF41AD4DAB1698.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2019.11.22-16.48.36:630][607]LogFileHelpers: Saving map 'MotionControllerMap' took 0.386
-[2019.11.22-16.48.37:620][665]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.22-16.48.37:642][665]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2019.11.22-16.48.37:642][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.22-16.48.37:642][665]PIE: New page: PIE session: MotionControllerMap (Nov 22, 2019, 6:48:37 AM)
-[2019.11.22-16.48.37:642][665]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
-[2019.11.22-16.48.37:655][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012695s)
-[2019.11.22-16.48.37:656][665]LogAIModule: Creating AISystem for world MotionControllerMap
-[2019.11.22-16.48.37:656][665]LogPlayLevel: PIE: World Init took: (0.000958s)
-[2019.11.22-16.48.37:656][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.013817s)
-[2019.11.22-16.48.37:697][665]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
-[2019.11.22-16.48.37:729][665]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.22-16.48.37:747][665]LogInit: FAudioDevice initialized.
-[2019.11.22-16.48.37:768][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.22-16.48.37:768][665]LogLoad: Game class is 'GameModeBase'
-[2019.11.22-16.48.37:772][665]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2019.11.22-11.48.37
-[2019.11.22-16.48.37:772][665]LogWorld: Bringing up level for play took: 0.003022
-[2019.11.22-16.48.37:773][665]LogOnline: OSS: Creating online subsystem instance for: :Context_7
-[2019.11.22-16.48.37:774][665]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.11.22-16.48.37:779][665]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.28
-[2019.11.22-16.48.37:779][665]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2019.11.22-16.48.37:803][666]LogRenderer: Reallocating scene render targets to support 1280x720 Format 26 NumSamples 1 (Frame:1).
-[2019.11.22-16.48.39:941][794]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2019.11.22-16.48.39:942][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.22-16.48.39:942][794]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
-[2019.11.22-16.48.39:979][794]LogSlate: Window 'VRHalloweenPrototype Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.22-16.48.39:989][794]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
-[2019.11.22-16.48.40:005][794]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.22-16.48.40:005][794]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2019.11.22-16.48.40:066][794]LogUObjectHash: Compacting FUObjectHashTables data took   6.31ms
-[2019.11.22-16.48.40:086][795]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2019.11.22-16.49.08:289][479]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2019.11.22-16.49.15:163][741]LogSlate: Window 'Change Variable Type' being destroyed
-[2019.11.22-16.49.19:359][968]LogSlate: Window 'Find in Blueprints' being destroyed
-[2019.11.22-16.49.19:367][968]LogSlate: Window 'Find in Blueprints' being destroyed
-[2019.11.22-16.49.37:655][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
-[2019.11.22-16.49.37:961][ 44]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MotionControllerMapF6DAA8DE4F1DC885E87C249B9BD9AF7B.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2019.11.22-16.49.37:995][ 44]LogFileHelpers: Saving map 'MotionControllerMap' took 0.396
-[2019.11.22-16.50.01:827][989]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={84A927C9-41BC-C88B-FF9D-F5A6353143F3}
-[2019.11.22-16.50.47:637][863]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
-[2019.11.22-16.50.47:953][863]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MotionControllerMap0D3C0F9A4D1B0CFF398201B82C4D9BDB.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2019.11.22-16.50.47:993][863]LogFileHelpers: Saving map 'MotionControllerMap' took 0.403
-[2019.11.22-16.51.39:466][879]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
-[2019.11.22-16.51.39:756][879]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MotionControllerMap4C2E1D7C440F40529A8E7BB937209142.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2019.11.22-16.51.39:793][879]LogFileHelpers: Saving map 'MotionControllerMap' took 0.380
-[2019.11.22-16.51.59:736][ 49]LogEditorTransaction: Undo Change Class Pin Value
-[2019.11.22-16.52.01:829][171]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={1FE59FA7-42CB-0071-1061-98AF68B18698}
-[2019.11.22-16.52.05:693][390]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
-[2019.11.22-16.52.05:982][390]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MotionControllerMap88ECB84347FAC3DE48225F858BA28B20.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2019.11.22-16.52.06:026][390]LogFileHelpers: Saving map 'MotionControllerMap' took 0.386
-[2019.11.22-16.53.00:316][597]LogUObjectHash: Compacting FUObjectHashTables data took   6.44ms
-[2019.11.22-16.53.00:321][597]LogBlueprint: Warning: [Compiler PersistentLevel.MotionControllerMap] Could not find a variable named "CandyQantity" in 'MotionControllerMap_C'.
-Make sure 'MotionControllerMap_C' has been compiled for  Set CandyQantity
-[2019.11.22-16.53.00:321][597]LogBlueprint: Warning: [Compiler PersistentLevel.MotionControllerMap] Could not find a variable named "CandyQantity" in 'MotionControllerMap_C'.
-Make sure 'MotionControllerMap_C' has been compiled for  Get CandyQantity
-[2019.11.22-16.53.00:322][597]LogBlueprint: Error: [Compiler PersistentLevel.MotionControllerMap] The property associated with  Candy Qantity  could not be found in '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C'
-[2019.11.22-16.53.00:322][597]LogBlueprint: Error: [Compiler PersistentLevel.MotionControllerMap] The property associated with  Candy Qantity  could not be found in '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C'
-[2019.11.22-16.53.00:635][597]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MotionControllerMap13A9866C4C6C09EF05790DABE139F3A1.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2019.11.22-16.53.00:668][597]LogFileHelpers: Saving map 'MotionControllerMap' took 0.405
-[2019.11.22-16.53.11:583][237]LogEditorTransaction: Undo Promote To Variable
-[2019.11.22-16.53.17:132][565]LogEditorTransaction: Undo Add Node
-[2019.11.22-16.53.29:330][275]LogUObjectHash: Compacting FUObjectHashTables data took   5.32ms
-[2019.11.22-16.53.29:638][275]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MotionControllerMap734CA26E45645A585FEABDBBF32495C4.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2019.11.22-16.53.29:675][275]LogFileHelpers: Saving map 'MotionControllerMap' took 0.399
-[2019.11.22-16.53.32:204][421]BlueprintLog: New page: Compile MotionControllerMap
-[2019.11.22-16.53.32:462][421]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
-[2019.11.22-16.53.33:404][464]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
-[2019.11.22-16.53.33:690][464]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MotionControllerMap9419B6F4422E60B4A1763F9E945BE83E.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2019.11.22-16.53.33:756][464]LogFileHelpers: Saving map 'MotionControllerMap' took 0.406
-[2019.11.22-16.53.37:150][664]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.22-16.53.37:172][664]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2019.11.22-16.53.37:173][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.22-16.53.37:173][664]PIE: New page: PIE session: MotionControllerMap (Nov 22, 2019, 6:53:37 AM)
-[2019.11.22-16.53.37:173][664]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
-[2019.11.22-16.53.37:186][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013152s)
-[2019.11.22-16.53.37:187][664]LogAIModule: Creating AISystem for world MotionControllerMap
-[2019.11.22-16.53.37:188][664]LogPlayLevel: PIE: World Init took: (0.001373s)
-[2019.11.22-16.53.37:188][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.014716s)
-[2019.11.22-16.53.37:236][664]LogUObjectHash: Compacting FUObjectHashTables data took   5.54ms
-[2019.11.22-16.53.37:272][664]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.22-16.53.37:290][664]LogInit: FAudioDevice initialized.
-[2019.11.22-16.53.37:307][664]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.22-16.53.37:307][664]LogLoad: Game class is 'GameModeBase'
-[2019.11.22-16.53.37:312][664]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2019.11.22-11.53.37
-[2019.11.22-16.53.37:313][664]LogWorld: Bringing up level for play took: 0.005264
-[2019.11.22-16.53.37:314][664]LogOnline: OSS: Creating online subsystem instance for: :Context_8
-[2019.11.22-16.53.37:316][664]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.11.22-16.53.37:321][664]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.738
-[2019.11.22-16.53.37:321][664]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2019.11.22-16.53.39:502][793]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2019.11.22-16.53.39:503][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.22-16.53.39:503][793]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
-[2019.11.22-16.53.39:518][793]LogSlate: Window 'VRHalloweenPrototype Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.22-16.53.39:531][793]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
-[2019.11.22-16.53.39:545][793]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.22-16.53.39:545][793]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2019.11.22-16.53.39:605][793]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
-[2019.11.22-16.53.39:635][794]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.11.22-16.53.40:993][875]LogTemp: Repeating last play command: Selected Viewport
-[2019.11.22-16.53.41:017][875]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2019.11.22-16.53.41:017][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.11.22-16.53.41:017][875]PIE: New page: PIE session: MotionControllerMap (Nov 22, 2019, 6:53:41 AM)
-[2019.11.22-16.53.41:018][875]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
-[2019.11.22-16.53.41:034][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016080s)
-[2019.11.22-16.53.41:035][875]LogAIModule: Creating AISystem for world MotionControllerMap
-[2019.11.22-16.53.41:035][875]LogPlayLevel: PIE: World Init took: (0.001355s)
-[2019.11.22-16.53.41:035][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.017637s)
-[2019.11.22-16.53.41:080][875]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
-[2019.11.22-16.53.41:114][875]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.11.22-16.53.41:130][875]LogInit: FAudioDevice initialized.
-[2019.11.22-16.53.41:148][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.22-16.53.41:148][875]LogLoad: Game class is 'GameModeBase'
-[2019.11.22-16.53.41:151][875]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2019.11.22-11.53.41
-[2019.11.22-16.53.41:152][875]LogWorld: Bringing up level for play took: 0.002954
-[2019.11.22-16.53.41:153][875]LogOnline: OSS: Creating online subsystem instance for: :Context_9
-[2019.11.22-16.53.41:154][875]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.11.22-16.53.41:164][875]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 1.105
-[2019.11.22-16.53.41:164][875]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2019.11.22-16.53.43:038][987]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2019.11.22-16.53.43:038][987]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.11.22-16.53.43:038][987]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
-[2019.11.22-16.53.43:057][987]LogSlate: Window 'VRHalloweenPrototype Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.11.22-16.53.43:078][987]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
-[2019.11.22-16.53.43:092][987]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.11.22-16.53.43:092][987]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2019.11.22-16.53.43:154][987]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
-[2019.11.22-16.53.43:184][988]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.11.22-16.53.58:807][887]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
-[2019.11.22-16.53.59:122][887]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MotionControllerMap3B4F0AFA47F4D713FC365D82D52D5571.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2019.11.22-16.53.59:158][887]LogFileHelpers: Saving map 'MotionControllerMap' took 0.399
-[2019.11.22-16.54.11:590][617]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/CandyPromptEF9BED6548C01968B2AE62A55556A499.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/CandyPrompt.uasset'
-[2019.11.22-16.54.40:483][559]LogUObjectHash: Compacting FUObjectHashTables data took   6.72ms
-[2019.11.22-16.54.40:794][559]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MotionControllerMap64A22A634C61F29B30377C984B87D079.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2019.11.22-16.54.40:829][559]LogFileHelpers: Saving map 'MotionControllerMap' took 0.399
+[2019.11.26-14.10.57:498][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.26-14.10.57:498][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.26-14.10.57:498][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Engine.ini]
+[2019.11.26-14.10.57:498][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.26-14.10.57:498][  0]LogConfig: Setting CVar [[r.MobileHDR:0]]
+[2019.11.26-14.10.57:498][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2019.11.26-14.10.57:498][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2019.11.26-14.10.57:498][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2019.11.26-14.10.57:498][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2019.11.26-14.10.57:499][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2019.11.26-14.10.57:500][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2019.11.26-14.10.57:501][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Engine.ini]
+[2019.11.26-14.10.57:502][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Engine.ini]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Engine.ini]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.26-14.10.57:502][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Engine.ini]
+[2019.11.26-14.10.57:502][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Engine.ini]
+[2019.11.26-14.10.57:506][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-14.10.57:506][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.26-14.10.57:506][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.26-14.10.57:506][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-14.10.57:506][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.11.26-14.10.57:506][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-14.10.57:506][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.26-14.10.57:506][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.11.26-14.10.57:507][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.26-14.10.57:508][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-14.10.57:509][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.11.26-14.10.57:509][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.26-14.10.57:509][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.11.26-14.10.57:509][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.11.26-14.10.57:509][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.26-14.10.57:509][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.11.26-14.10.57:509][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.26-14.10.57:509][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.26-14.10.57:509][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.26-14.10.57:509][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.26-14.10.57:509][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.26-14.10.57:509][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.26-14.10.57:509][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.26-14.10.57:509][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-14.10.57:509][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.26-14.10.57:509][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.26-14.10.57:509][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.26-14.10.57:509][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.26-14.10.57:515][  0]LogHAL: Display: Platform has ~ 16 GB [17053204480 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.26-14.10.57:515][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.26-14.10.57:515][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-14.10.57:515][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.26-14.10.57:515][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.26-14.10.57:515][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-14.10.57:515][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.11.26-14.10.57:515][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-14.10.57:515][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.26-14.10.57:515][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.26-14.10.57:515][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.26-14.10.57:515][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.26-14.10.57:515][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.26-14.10.57:515][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.26-14.10.57:515][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.26-14.10.57:515][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.26-14.10.57:515][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.26-14.10.57:516][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Scalability.ini]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.26-14.10.57:517][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.26-14.10.57:518][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.26-14.10.57:518][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.26-14.10.57:518][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.26-14.10.57:518][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Config/Windows/Engine.ini]
+[2019.11.26-14.10.57:518][  0]LogInit: Computer: LILINBET
+[2019.11.26-14.10.57:518][  0]LogInit: User: CBVeLuMe
+[2019.11.26-14.10.57:518][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.26-14.10.57:518][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.26-14.10.57:519][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.26-14.10.57:519][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.26-14.10.57:519][  0]LogMemory: Process Physical Memory: 101.11 MB used, 101.11 MB peak
+[2019.11.26-14.10.57:519][  0]LogMemory: Process Virtual Memory: 100.48 MB used, 100.48 MB peak
+[2019.11.26-14.10.57:519][  0]LogMemory: Physical Memory: 6220.84 MB used,  10042.36 MB free, 16263.20 MB total
+[2019.11.26-14.10.57:519][  0]LogMemory: Virtual Memory: 4682.91 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2019.11.26-14.10.57:528][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.11.26-14.10.57:554][  0]LogInit: Using OS detected language (en-US).
+[2019.11.26-14.10.57:554][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.26-14.10.57:555][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.26-14.10.57:938][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.26-14.10.57:993][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.26-14.10.57:993][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.26-14.10.58:243][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.26-14.10.58:243][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.26-14.10.58:352][  0]LogD3D11RHI:    0. 'NVIDIA Quadro P5000' (Feature Level 11_0)
+[2019.11.26-14.10.58:352][  0]LogD3D11RHI:       16257/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.26-14.10.58:369][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.11.26-14.10.58:369][  0]LogD3D11RHI:       128/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.26-14.10.58:372][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.26-14.10.58:372][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.26-14.10.58:372][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.26-14.10.58:415][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.26-14.10.58:415][  0]LogD3D11RHI:     GPU DeviceId: 0x1bb6 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.26-14.10.58:415][  0]LogWindows: EnumDisplayDevices:
+[2019.11.26-14.10.58:415][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.11.26-14.10.58:415][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.26-14.10.58:416][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.26-14.10.58:416][  0]LogWindows:    3. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.11.26-14.10.58:416][  0]LogWindows:    4. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.11.26-14.10.58:416][  0]LogWindows:    5. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.11.26-14.10.58:417][  0]LogWindows:    6. 'NVIDIA Quadro P5000' (P:0 D:0)
+[2019.11.26-14.10.58:417][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.11.26-14.10.58:417][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro P5000
+[2019.11.26-14.10.58:417][  0]LogD3D11RHI:   Driver Version: 430.39 (internal:26.21.14.3039, unified:430.39)
+[2019.11.26-14.10.58:417][  0]LogD3D11RHI:      Driver Date: 4-17-2019
+[2019.11.26-14.10.58:417][  0]LogRHI: Texture pool is 11379 MB (70% of 16257 MB)
+[2019.11.26-14.10.58:470][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.26-14.10.58:485][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.26-14.10.59:073][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.26-14.10.59:089][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.26-14.10.59:108][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.26-14.10.59:127][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.26-14.10.59:149][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.26-14.10.59:173][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.26-14.10.59:196][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.26-14.10.59:217][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.26-14.10.59:225][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.26-14.10.59:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.26-14.10.59:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.26-14.10.59:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.26-14.10.59:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.26-14.10.59:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.26-14.10.59:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.26-14.10.59:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.26-14.10.59:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.26-14.10.59:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.26-14.10.59:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.26-14.10.59:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.26-14.10.59:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.26-14.10.59:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.26-14.10.59:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.26-14.10.59:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.26-14.10.59:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.26-14.10.59:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.26-14.10.59:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.26-14.10.59:279][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.26-14.10.59:302][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.26-14.10.59:302][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.26-14.10.59:338][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.26-14.10.59:338][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.26-14.10.59:357][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.26-14.10.59:376][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.26-14.10.59:402][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.26-14.10.59:425][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.26-14.10.59:474][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.26-14.10.59:474][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.26-14.10.59:474][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.26-14.10.59:498][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.26-14.10.59:633][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Intermediate/Shaders/WorkingDirectory/9956/).
+[2019.11.26-14.10.59:633][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/CBVeLuMe/AppData/Local/Temp/UnrealShaderWorkingDir/E826FBC540C8D4F6CFA044950E1BD4CD/'.
+[2019.11.26-14.10.59:640][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.26-14.10.59:640][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.26-14.10.59:640][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.26-14.11.00:680][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.26-14.11.00:782][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/CBVeLuMe/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.26-14.11.00:782][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/CBVeLuMe/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.11.26-14.11.00:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.26-14.11.00:782][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.26-14.11.00:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.26-14.11.00:782][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.26-14.11.00:811][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.26-14.11.00:811][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.26-14.11.00:811][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.26-14.11.00:813][  0]LogDerivedDataCache: Using Local data cache path C:/Users/CBVeLuMe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.26-14.11.00:814][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.26-14.11.00:814][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.26-14.11.00:893][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.26-14.11.00:903][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.26-14.11.00:905][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.26-14.11.01:043][  0]LogAssetRegistry: FAssetRegistry took 0.0055 seconds to start up
+[2019.11.26-14.11.01:738][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.26-14.11.02:386][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.26-14.11.02:386][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.26-14.11.02:386][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.26-14.11.02:386][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.26-14.11.02:386][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.26-14.11.02:409][  0]LogNetVersion: VRHalloweenPrototype 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1055832047)
+[2019.11.26-14.11.03:714][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.114582 seconds
+[2019.11.26-14.11.03:723][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.11.26-14.11.03:723][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.11.26-14.11.03:723][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.26-14.11.05:455][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.26-14.11.05:459][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.26-14.11.05:548][  0]SourceControl: Source control is disabled
+[2019.11.26-14.11.06:702][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.26-14.11.06:896][  0]LogOcInput: OculusInput pre-init called
+[2019.11.26-14.11.06:904][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.11.26-14.11.06:904][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.11.26-14.11.07:101][  0]LogEngine: Initializing Engine...
+[2019.11.26-14.11.07:102][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.26-14.11.07:103][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.26-14.11.07:832][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.26-14.11.07:849][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.26-14.11.07:891][  0]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.26-14.11.08:011][  0]LogInit: FAudioDevice initialized.
+[2019.11.26-14.11.08:011][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.26-14.11.08:081][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/CBVeLuMe/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.11.26-14.11.08:096][  0]LogInit: Texture streaming: Enabled
+[2019.11.26-14.11.08:124][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.26-14.11.08:124][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2019.11.26-14.11.08:126][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2019.11.26-14.11.08:215][  0]LogInit: Transaction tracking system initialized
+[2019.11.26-14.11.08:261][  0]BlueprintLog: New page: Editor Load
+[2019.11.26-14.11.08:372][  0]LocalizationService: Localization service is disabled
+[2019.11.26-14.11.08:832][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.26-14.11.08:832][  0]LogCook: Display: Mobile HDR setting 0
+[2019.11.26-14.11.08:847][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/' took 0.03s
+[2019.11.26-14.11.09:101][  0]Cmd: MAP LOAD FILE="../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.26-14.11.09:101][  0]LightingResults: New page: Lighting Build
+[2019.11.26-14.11.09:105][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-14.11.09:107][  0]MapCheck: New page: Map Check
+[2019.11.26-14.11.09:107][  0]LightingResults: New page: Lighting Build
+[2019.11.26-14.11.09:133][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.11.26-14.11.10:194][  0]LogAIModule: Creating AISystem for world MotionControllerMap
+[2019.11.26-14.11.10:202][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.26-14.11.10:236][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2019.11.26-14.11.10:236][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.26-14.11.10:236][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.189ms to complete.
+[2019.11.26-14.11.10:236][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 1.136
+[2019.11.26-14.11.10:389][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-14.11.10:402][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-14.11.10:415][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-14.11.10:427][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-14.11.10:445][  0]LogCollectionManager: Loaded 0 collections in 0.002288 seconds
+[2019.11.26-14.11.10:465][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Collections/' took 0.00s
+[2019.11.26-14.11.10:465][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Developers/CBVeLuMe/Collections/' took 0.00s
+[2019.11.26-14.11.10:465][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Collections/' took 0.00s
+[2019.11.26-14.11.10:465][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2019.11.26-14.11.10:477][  0]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2863 classes and 680 folders.
+[2019.11.26-14.11.10:494][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.26-14.11.10:862][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.26-14.11.10:883][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.11.26-14.11.10:961][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.26-14.11.10:965][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.26-14.11.10:984][  0]LogSlate: Took 0.010751 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.26-14.11.11:169][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 26 NumSamples 1 (Frame:1).
+[2019.11.26-14.11.11:357][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.26-14.11.11:357][  0]LogLoad: (Engine Initialization) Total time: 16.11 seconds
+[2019.11.26-14.11.11:357][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.26-14.11.11:442][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.26-14.11.11:472][  0]LogSlate: Took 0.005980 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.26-14.11.12:540][ 16]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.26-14.11.14:165][ 44]LogAssetRegistry: Asset discovery search completed in 13.1233 seconds
+[2019.11.26-14.11.14:169][ 44]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2019.11.26-14.11.14:169][ 44]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000072 seconds (updated 0 objects)
+[2019.11.26-14.11.16:497][ 51]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/' took 5.11s
+[2019.11.26-14.12.11:363][813]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={98FFD599-43E6-648B-E777-3EA0847BD029}
+[2019.11.26-14.12.11:363][813]LogEditorSessionSummary: EditorSessionSummary sent report. Type=AbnormalShutdown, SessionId={6DEFC74E-49C3-22D7-8526-FCA30D80B86E}
+[2019.11.26-14.21.11:389][400]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={1497163B-4C13-26D2-F4B0-EBA0B32B5E51}
+[2019.11.26-14.26.02:578][724]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.26-14.26.04:053][829]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.26-14.26.04:062][829]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap
+[2019.11.26-14.26.04:477][829]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2019.11.26-14.26.05:402][829]LogSlate: Took 0.004698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.26-14.26.05:488][830]LogSlate: Took 0.005045 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.26-14.26.10:336][206]LogSlate: Window 'MotionControllerMap' being destroyed
+[2019.11.26-14.29.23:855][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-14.29.33:551][ 60]LogBlueprint: Error: [Compiler BP_PickupCube_Candy] The type of  Object  is undetermined.  Connect something to  Cast To CandyPrompt  to imply a specific type.
+[2019.11.26-14.29.33:551][ 60]LogBlueprint: Error: [Compiler BP_PickupCube_Candy] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2019.11.26-14.29.33:641][ 60]LogLinker: Warning: While loading '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap' failed to load '/Game/Maps/MainLevel_BuiltData': Can't find file.
+[2019.11.26-14.29.33:641][ 60]LogLinker: Warning: While loading '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap' failed to load '/Game/Maps/MainLevel_BuiltData': Can't find file.
+[2019.11.26-14.29.33:690][ 60]LogLinker: Warning: While loading '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap' failed to load '/Game/Maps/MainLevel_BuiltData': Can't find file.
+[2019.11.26-14.29.33:690][ 60]LogLinker: Warning: While loading '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap' failed to load '/Game/Maps/MainLevel_BuiltData': Can't find file.
+[2019.11.26-14.29.34:615][ 60]LogLinker: Warning: Failed to load '/Game/Maps/MainLevel_BuiltData': Can't find file.
+[2019.11.26-14.29.34:616][ 60]LogLinker: Warning: Failed to load '/Game/Maps/MainLevel_BuiltData': Can't find file.
+[2019.11.26-14.29.34:616][ 60]LogLinker: Warning: Failed to load '/Game/Maps/MainLevel_BuiltData': Can't find file.
+[2019.11.26-14.29.34:616][ 60]LogLinker: Warning: Failed to load '/Game/Maps/MainLevel_BuiltData': Can't find file.
+[2019.11.26-14.29.34:618][ 60]LogBlueprint: Warning: [Compiler PersistentLevel.MainLevel] Could not find a variable named "CandyPrompt" in 'MainLevel_C'.
+Make sure 'MainLevel_C' has been compiled for  Get CandyPrompt
+[2019.11.26-14.29.34:619][ 60]LogBlueprint: Warning: [Compiler PersistentLevel.MainLevel] Could not find a variable named "CandyPrompt" in 'MainLevel_C'.
+Make sure 'MainLevel_C' has been compiled for  Set CandyPrompt
+[2019.11.26-14.29.34:619][ 60]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2019.11.26-14.29.34:619][ 60]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] The property associated with  Candy Prompt  could not be found in '/Game/Maps/MainLevel.MainLevel_C'
+[2019.11.26-14.29.34:619][ 60]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] The property associated with  Candy Prompt  could not be found in '/Game/Maps/MainLevel.MainLevel_C'
+[2019.11.26-14.29.34:626][ 60]LogLinker: Warning: While loading '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap' failed to load '/Game/Maps/MainLevel_BuiltData': Can't find file.
+[2019.11.26-14.29.34:626][ 60]LoadErrors: Failed to load /Game/Maps/MainLevel_BuiltData.MainLevel_BuiltData Referenced by PersistentLevel
+[2019.11.26-14.29.34:626][ 60]LogLinker: Warning: While loading '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap' failed to load '/Game/Maps/MainLevel_BuiltData': Can't find file.
+[2019.11.26-14.29.34:822][ 60]LogStaticMesh: Building static mesh Big_gate_portal...
+[2019.11.26-14.29.36:592][ 60]LogTexture: Display: Building textures: T_stone_detail_BC (AutoDXT, 1024X2048)
+[2019.11.26-14.29.36:592][ 60]LogTexture: Display: Building textures: T_stone_detail_N_1 (BC5, 1024X2048)
+[2019.11.26-14.29.36:592][ 60]LogTexture: Display: Building textures: T_roof_wood_planks_01_BC (AutoDXT, 2048X2048)
+[2019.11.26-14.29.36:592][ 60]LogTexture: Display: Building textures: T_roof_wood_planks_01_N (BC5, 2048X2048)
+[2019.11.26-14.29.36:592][ 60]LogTexture: Display: Building textures: T_roof_wood_planks_01_MT_R_AO (AutoDXT, 2048X2048)
+[2019.11.26-14.29.36:592][ 60]LogTexture: Display: Building textures: T_Stairs_N (BC5, 2048X4096)
+[2019.11.26-14.29.36:592][ 60]LogTexture: Display: Building textures: T_Stairs_MT (AutoDXT, 2048X4096)
+[2019.11.26-14.29.36:592][ 60]LogStaticMesh: Built static mesh [1.77s] /Game/PBR_Graveyard_and_Landscape/models/big_gate_portal.Big_gate_portal
+[2019.11.26-14.29.37:488][ 60]LogTexture: Display: Building textures: T_Stairs_BC (AutoDXT, 2048X4096)
+[2019.11.26-14.29.37:489][ 60]LogStaticMesh: Building static mesh ivy_wall_rock_portal_01...
+[2019.11.26-14.29.37:768][ 60]LogTexture: Display: Building textures: T_Stairs_AO (AutoDXT, 2048X4096)
+[2019.11.26-14.29.37:769][ 60]LogStaticMesh: Built static mesh [0.28s] /Game/PBR_Graveyard_and_Landscape/models/ivy_wall_rock_portal_01.ivy_wall_rock_portal_01
+[2019.11.26-14.29.37:816][ 60]LogStaticMesh: Building static mesh Rock_stairs_set_1...
+[2019.11.26-14.29.38:463][ 60]LogStaticMesh: Built static mesh [0.65s] /Game/PBR_Graveyard_and_Landscape/models/Rock_stairs_set_1.Rock_stairs_set_1
+[2019.11.26-14.29.38:504][ 60]LogStaticMesh: Building static mesh Roof_small_x2_tiled...
+[2019.11.26-14.29.38:853][ 60]LogStaticMesh: Built static mesh [0.35s] /Game/PBR_Graveyard_and_Landscape/models/Roof_small_x2_tiled.Roof_small_x2_tiled
+[2019.11.26-14.29.44:524][ 60]LogMaterial: Display: Missing cached shader map for material M_Church_roof_planks, compiling. 
+[2019.11.26-14.29.48:995][ 60]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2019.11.26-14.29.48:995][ 60]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2019.11.26-14.29.48:995][ 60]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2019.11.26-14.29.48:995][ 60]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2019.11.26-14.29.48:995][ 60]LogMaterial: Display: Missing cached shader map for material M_Stairs_set, compiling. 
+[2019.11.26-14.29.49:466][ 60]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 50
+[2019.11.26-14.29.49:466][ 60]LogMaterial: Display: Missing cached shader map for material M_Mixed_stone_wall_03_sand, compiling. 
+[2019.11.26-14.29.49:578][ 60]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2019.11.26-14.29.49:662][ 60]LogAIModule: Creating AISystem for world MainLevel
+[2019.11.26-14.29.49:756][ 60]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/MainLevel.MainLevel
+[2019.11.26-14.29.49:814][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   6.46ms
+[2019.11.26-14.29.49:817][ 60]Cmd: MAP LOAD FILE="../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.26-14.29.49:817][ 60]LightingResults: New page: Lighting Build
+[2019.11.26-14.29.49:818][ 60]LoadErrors: New page: Loading map: MainLevel.umap
+[2019.11.26-14.29.49:863][ 60]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-14.29.49:928][ 60]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 179
+[2019.11.26-14.29.49:928][ 60]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-14.29.49:929][ 60]MapCheck: New page: Map Check
+[2019.11.26-14.29.49:929][ 60]LightingResults: New page: Lighting Build
+[2019.11.26-14.29.49:972][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   6.32ms
+[2019.11.26-14.29.49:991][ 60]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.26-14.29.50:040][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2019.11.26-14.29.50:134][ 60]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.26-14.29.50:135][ 60]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.252ms to complete.
+[2019.11.26-14.29.50:135][ 60]LogFileHelpers: Loading map 'MainLevel' took 0.321
+[2019.11.26-14.29.50:776][ 61]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 169
+[2019.11.26-14.29.50:776][ 61]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 159
+[2019.11.26-14.29.53:235][200]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 149
+[2019.11.26-14.29.55:751][353]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 139
+[2019.11.26-14.30.00:151][629]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 129
+[2019.11.26-14.30.00:981][679]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 119
+[2019.11.26-14.30.03:914][851]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 109
+[2019.11.26-14.30.04:937][911]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 99
+[2019.11.26-14.30.05:786][961]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 89
+[2019.11.26-14.30.11:557][305]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 79
+[2019.11.26-14.30.12:122][339]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 69
+[2019.11.26-14.30.12:950][387]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.26-14.30.13:855][430]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.26-14.30.13:863][430]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel
+[2019.11.26-14.30.16:572][518]LogSlate: Window 'MainLevel' being destroyed
+[2019.11.26-14.30.16:951][543]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 59
+[2019.11.26-14.30.17:647][589]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 49
+[2019.11.26-14.30.18:068][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-14.30.22:248][896]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 39
+[2019.11.26-14.30.22:989][950]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2019.11.26-14.30.23:670][  1]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 21
+[2019.11.26-14.30.26:960][244]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2019.11.26-14.30.27:567][288]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2019.11.26-14.30.29:195][406]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2019.11.26-14.30.30:401][490]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2019.11.26-14.30.30:720][510]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2019.11.26-14.30.31:730][580]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2019.11.26-14.30.31:880][590]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2019.11.26-14.53.09:123][779]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.26-14.53.09:160][779]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (中文(简体) - 手心输入法).
+[2019.11.26-14.53.55:231][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-14.53.55:252][536]LogSlate: Took 0.018995 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.11.26-14.53.55:321][536]LogSlate: Took 0.009411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.11.26-14.54.26:085][381]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.26-14.54.26:760][419]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.26-14.54.28:668][531]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_Rock_C (BP_PickupCube_Rock)
+[2019.11.26-14.54.29:114][554]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.26-14.54.49:314][760]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_Candy_C (BP_PickupCube_Candy5)
+[2019.11.26-14.54.59:427][363]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2019.11.26-14.55.10:595][ 27]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.26-14.55.10:643][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.26-14.55.22:064][709]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-14.55.39:109][729]BlueprintLog: New page: Compile MainLevel
+[2019.11.26-14.55.39:114][729]LogBlueprint: Warning: [Compiler PersistentLevel.MainLevel] Could not find a variable named "CandyPrompt" in 'MainLevel_C'.
+Make sure 'MainLevel_C' has been compiled for  Get CandyPrompt
+[2019.11.26-14.55.39:115][729]LogBlueprint: Warning: [Compiler PersistentLevel.MainLevel] Could not find a variable named "CandyPrompt" in 'MainLevel_C'.
+Make sure 'MainLevel_C' has been compiled for  Set CandyPrompt
+[2019.11.26-14.55.39:115][729]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2019.11.26-14.55.39:116][729]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] The property associated with  Candy Prompt  could not be found in '/Game/Maps/MainLevel.MainLevel_C'
+[2019.11.26-14.55.39:116][729]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] The property associated with  Candy Prompt  could not be found in '/Game/Maps/MainLevel.MainLevel_C'
+[2019.11.26-14.55.39:420][729]LogUObjectHash: Compacting FUObjectHashTables data took   8.63ms
+[2019.11.26-14.56.15:188][866]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2019.11.26-14.56.15:204][866]LogBlueprint: Warning: [Compiler PersistentLevel.MainLevel] Could not find a variable named "CandyPrompt" in 'MainLevel_C'.
+Make sure 'MainLevel_C' has been compiled for  Get CandyPrompt
+[2019.11.26-14.56.15:205][866]LogBlueprint: Warning: [Compiler PersistentLevel.MainLevel] Could not find a variable named "CandyPrompt" in 'MainLevel_C'.
+Make sure 'MainLevel_C' has been compiled for  Set CandyPrompt
+[2019.11.26-14.56.15:205][866]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2019.11.26-14.56.15:206][866]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] The property associated with  Candy Prompt  could not be found in '/Game/Maps/MainLevel.MainLevel_C'
+[2019.11.26-14.56.15:206][866]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] The property associated with  Candy Prompt  could not be found in '/Game/Maps/MainLevel.MainLevel_C'
+[2019.11.26-14.56.15:449][866]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel_Auto1D4EE07D344BCA386655B13A1140950F6.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Autosaves/Game/Maps/MainLevel_Auto1.umap'
+[2019.11.26-14.56.15:457][866]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.337
+[2019.11.26-14.56.15:457][866]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.337
+[2019.11.26-15.02.35:249][703]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/VirtualRealityBP/Blueprints/CandyPrompt.CandyPrompt
+[2019.11.26-15.02.44:268][187]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/CandyPromptFD7E2B564B2CD6FA8005D69253AB0517.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/CandyPrompt.uasset'
+[2019.11.26-15.03.25:798][670]LogSlate: Took 0.015491 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.11.26-15.03.31:384][869]LogSlate: Window 'Change Variable Type' being destroyed
+[2019.11.26-15.04.20:599][634]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.11.26-15.04.20:607][634]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.11.26-15.07.22:788][541]LogUObjectHash: Compacting FUObjectHashTables data took   5.68ms
+[2019.11.26-15.07.23:106][541]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel_Auto2353EA71D4494892859C3349BE76D4B00.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/Autosaves/Game/Maps/MainLevel_Auto2.umap'
+[2019.11.26-15.07.23:110][541]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainLevel' took 0.391
+[2019.11.26-15.07.23:110][541]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.391
+[2019.11.26-15.13.05:866][610]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2019.11.26-15.13.06:188][610]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevelE9E333C34EF245029B2D16986EFEA429.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-15.13.06:227][610]LogFileHelpers: Saving map 'MainLevel' took 0.409
+[2019.11.26-15.13.11:707][937]BlueprintLog: New page: Compile MainLevel
+[2019.11.26-15.13.11:943][937]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2019.11.26-15.13.12:996][999]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.26-15.13.13:018][999]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-15.13.13:019][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.26-15.13.13:019][999]BlueprintLog: Warning: Blueprint failed to compile:  BP_PickupCube_Candy
+[2019.11.26-15.13.13:020][999]LogCustomDialog: Dialog displayed:
+[2019.11.26-15.13.15:398][999]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2019.11.26-15.13.15:408][999]PIE: New page: PIE session: MainLevel (Nov 26, 2019, 5:13:15 AM)
+[2019.11.26-15.13.15:410][999]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.11.26-15.13.15:412][999]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-15.13.15:429][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016230s)
+[2019.11.26-15.13.15:431][999]LogAIModule: Creating AISystem for world MainLevel
+[2019.11.26-15.13.15:431][999]LogPlayLevel: PIE: World Init took: (0.002059s)
+[2019.11.26-15.13.15:431][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.019081s)
+[2019.11.26-15.13.15:477][999]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2019.11.26-15.13.15:513][999]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.26-15.13.15:533][999]LogInit: FAudioDevice initialized.
+[2019.11.26-15.13.15:552][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-15.13.15:554][999]LogLoad: Game class is 'GameModeBase'
+[2019.11.26-15.13.15:563][999]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2019.11.26-10.13.15
+[2019.11.26-15.13.15:563][999]LogWorld: Bringing up level for play took: 0.008316
+[2019.11.26-15.13.15:564][999]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2019.11.26-15.13.15:581][999]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.11.26-15.13.15:588][999]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 3.48
+[2019.11.26-15.13.15:588][999]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-15.13.15:634][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 26 NumSamples 1 (Frame:1).
+[2019.11.26-15.13.18:461][148]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-15.13.18:462][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-15.13.18:463][148]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-15.13.18:477][148]LogSlate: Window 'VRHalloweenPrototype Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.26-15.13.18:483][148]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-15.13.18:496][148]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.26-15.13.18:497][148]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-15.13.18:605][148]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2019.11.26-15.13.18:630][149]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.11.26-15.13.20:332][239]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2019.11.26-15.13.20:617][239]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel1126190248F250E3D72108B126CF9901.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-15.13.20:656][239]LogFileHelpers: Saving map 'MainLevel' took 0.382
+[2019.11.26-15.13.25:675][536]MapCheck: New page: Map Check
+[2019.11.26-15.13.25:696][536]Cmd: MAP REBUILD ALLVISIBLE
+[2019.11.26-15.13.25:696][536]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.11.26-15.13.25:713][536]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=false
+[2019.11.26-15.13.25:790][536]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2019.11.26-15.13.25:902][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.25:913][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.25:923][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2019.11.26-15.13.25:923][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2019.11.26-15.13.25:923][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.25:933][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.25:945][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2019.11.26-15.13.25:945][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2019.11.26-15.13.25:945][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.25:959][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.25:974][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.25:990][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:005][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:018][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:032][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:044][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:060][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:073][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:088][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:100][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:113][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:127][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:142][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:155][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:168][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:181][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:194][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:207][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:221][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:236][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:250][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:262][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:276][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:289][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:303][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:315][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:328][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.26:341][536]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-15.13.32:317][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 64
+[2019.11.26-15.13.32:317][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 63
+[2019.11.26-15.13.32:317][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 62
+[2019.11.26-15.13.32:317][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 61
+[2019.11.26-15.13.32:317][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 60
+[2019.11.26-15.13.32:317][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 59
+[2019.11.26-15.13.32:318][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 58
+[2019.11.26-15.13.32:318][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 57
+[2019.11.26-15.13.32:318][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 56
+[2019.11.26-15.13.32:318][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 55
+[2019.11.26-15.13.32:318][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 54
+[2019.11.26-15.13.32:318][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 53
+[2019.11.26-15.13.32:318][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 52
+[2019.11.26-15.13.32:318][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 51
+[2019.11.26-15.13.32:318][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 50
+[2019.11.26-15.13.32:318][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 49
+[2019.11.26-15.13.32:318][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 48
+[2019.11.26-15.13.32:319][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 47
+[2019.11.26-15.13.32:319][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 46
+[2019.11.26-15.13.32:319][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 45
+[2019.11.26-15.13.32:319][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 44
+[2019.11.26-15.13.32:319][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 43
+[2019.11.26-15.13.32:319][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 42
+[2019.11.26-15.13.32:319][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 41
+[2019.11.26-15.13.32:319][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 40
+[2019.11.26-15.13.32:319][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 39
+[2019.11.26-15.13.32:319][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 38
+[2019.11.26-15.13.32:319][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 37
+[2019.11.26-15.13.32:320][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 36
+[2019.11.26-15.13.32:320][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 35
+[2019.11.26-15.13.32:320][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 34
+[2019.11.26-15.13.32:320][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 33
+[2019.11.26-15.13.32:320][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 32
+[2019.11.26-15.13.32:320][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 31
+[2019.11.26-15.13.32:320][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 30
+[2019.11.26-15.13.32:320][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2019.11.26-15.13.32:320][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 28
+[2019.11.26-15.13.32:320][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 27
+[2019.11.26-15.13.32:320][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 26
+[2019.11.26-15.13.32:321][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2019.11.26-15.13.32:321][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 24
+[2019.11.26-15.13.32:321][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 23
+[2019.11.26-15.13.32:321][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2019.11.26-15.13.32:321][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+[2019.11.26-15.13.32:321][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 20
+[2019.11.26-15.13.32:321][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+[2019.11.26-15.13.32:321][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2019.11.26-15.13.32:321][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2019.11.26-15.13.32:321][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
+[2019.11.26-15.13.32:321][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2019.11.26-15.13.32:321][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2019.11.26-15.13.32:322][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2019.11.26-15.13.32:322][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2019.11.26-15.13.32:322][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2019.11.26-15.13.32:322][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2019.11.26-15.13.32:322][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2019.11.26-15.13.32:322][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2019.11.26-15.13.32:322][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2019.11.26-15.13.32:322][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2019.11.26-15.13.32:322][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2019.11.26-15.13.32:322][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2019.11.26-15.13.32:322][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2019.11.26-15.13.32:323][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2019.11.26-15.13.32:323][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2019.11.26-15.13.32:323][536]TextureStreamingBuild: Display: Compiling optional shaders took 6.429 seconds.
+[2019.11.26-15.13.32:555][536]LogLevel: Display: Export Material TexCoord Scales took 0.232 seconds.
+[2019.11.26-15.13.32:661][536]TextureStreamingBuild: Display: Build Texture Streaming took 0.104 seconds.
+[2019.11.26-15.13.32:705][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2019.11.26-15.13.32:706][536]LightingResults: New page: Lighting Build - Nov 26, 2019, 5:13:32 AM
+[2019.11.26-15.13.32:756][536]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.11.26-15.13.32:854][536]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.11.26-15.13.32:868][536]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.11.26-15.13.33:382][536]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.11.26-15.13.33:383][536]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9956
+[2019.11.26-15.13.39:365][536]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2019.11.26-15.13.39:366][536]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.11.26-15.13.39:366][536]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.11.26-15.13.39:366][536]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.11.26-15.13.39:367][536]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.11.26-15.13.39:367][536]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.11.26-15.13.40:539][536]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.11.26-15.13.40:539][536]MapCheck: New page: MainLevel - Nov 26, 2019, 5:13:40 AM
+[2019.11.26-15.13.40:539][536]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2019.11.26-15.13.40:541][536]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 1.543ms to complete.
+[2019.11.26-15.13.40:542][536]LogEditorBuildUtils: Build time 0:14
+[2019.11.26-15.13.40:908][536]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling. 
+[2019.11.26-15.13.40:922][536]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2019.11.26-15.13.40:922][536]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2019.11.26-15.13.40:923][536]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Ground_Grass, compiling. 
+[2019.11.26-15.13.40:993][536]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2019.11.26-15.13.40:993][536]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2019.11.26-15.13.41:100][538]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Grave_set_1, compiling. 
+[2019.11.26-15.13.41:119][538]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Grave_set_1, compiling. 
+[2019.11.26-15.13.41:154][539]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Grave_set_2, compiling. 
+[2019.11.26-15.13.41:170][539]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Grave_set_2, compiling. 
+[2019.11.26-15.13.41:209][540]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_grave_05, compiling. 
+[2019.11.26-15.13.41:229][540]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_grave_05, compiling. 
+[2019.11.26-15.13.41:290][541]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Grave_set_4, compiling. 
+[2019.11.26-15.13.41:306][541]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Grave_set_4, compiling. 
+[2019.11.26-15.13.41:348][542]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Grave_set_3, compiling. 
+[2019.11.26-15.13.41:366][542]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Grave_set_3, compiling. 
+[2019.11.26-15.13.41:403][543]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Ivy, compiling. 
+[2019.11.26-15.13.41:421][543]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Ivy, compiling. 
+[2019.11.26-15.13.41:437][543]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Ivy, compiling. 
+[2019.11.26-15.13.41:481][544]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Stone_cross, compiling. 
+[2019.11.26-15.13.41:507][544]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Stone_cross, compiling. 
+[2019.11.26-15.13.41:564][545]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_sarcophagus_1, compiling. 
+[2019.11.26-15.13.41:581][545]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_sarcophagus_1, compiling. 
+[2019.11.26-15.13.41:632][546]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Coffin, compiling. 
+[2019.11.26-15.13.41:649][546]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Coffin, compiling. 
+[2019.11.26-15.13.41:670][547]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 38
+[2019.11.26-15.13.41:685][547]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_sarcophagus_2, compiling. 
+[2019.11.26-15.13.41:711][547]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_sarcophagus_2, compiling. 
+[2019.11.26-15.13.41:748][548]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_grave_body_cloth, compiling. 
+[2019.11.26-15.13.41:766][548]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 32
+[2019.11.26-15.13.41:767][548]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_grave_body_cloth, compiling. 
+[2019.11.26-15.13.41:788][549]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2019.11.26-15.13.41:803][549]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wall_rock_1_2, compiling. 
+[2019.11.26-15.13.41:819][549]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2019.11.26-15.13.41:820][549]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wall_rock_1_2, compiling. 
+[2019.11.26-15.13.41:853][550]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wall_rock_3, compiling. 
+[2019.11.26-15.13.41:870][550]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wall_rock_3, compiling. 
+[2019.11.26-15.13.41:896][551]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wall_rock_1_2_Vertex, compiling. 
+[2019.11.26-15.13.41:911][551]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wall_rock_1_2_Vertex, compiling. 
+[2019.11.26-15.13.41:942][552]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Dead_fern_move, compiling. 
+[2019.11.26-15.13.41:956][552]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Dead_fern_move, compiling. 
+[2019.11.26-15.13.41:970][552]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Dead_fern_move, compiling. 
+[2019.11.26-15.13.42:004][553]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Mixed_stone_wall_02, compiling. 
+[2019.11.26-15.13.42:025][553]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Mixed_stone_wall_02, compiling. 
+[2019.11.26-15.13.42:064][554]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_roof_main, compiling. 
+[2019.11.26-15.13.42:080][554]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_roof_main, compiling. 
+[2019.11.26-15.13.42:116][555]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_roof_stones, compiling. 
+[2019.11.26-15.13.42:133][555]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_roof_stones, compiling. 
+[2019.11.26-15.13.42:169][556]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_sandstone_01, compiling. 
+[2019.11.26-15.13.42:184][556]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_sandstone_01, compiling. 
+[2019.11.26-15.13.42:221][557]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_glass_window, compiling. 
+[2019.11.26-15.13.42:238][557]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_glass_window, compiling. 
+[2019.11.26-15.13.42:273][558]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_02_imposter, compiling. 
+[2019.11.26-15.13.42:289][558]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_02_imposter, compiling. 
+[2019.11.26-15.13.42:305][558]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_02_imposter, compiling. 
+[2019.11.26-15.13.42:344][559]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_door_base, compiling. 
+[2019.11.26-15.13.42:364][559]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_door_base, compiling. 
+[2019.11.26-15.13.42:404][560]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_door_irons_cutoff, compiling. 
+[2019.11.26-15.13.42:423][560]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_door_irons_cutoff, compiling. 
+[2019.11.26-15.13.42:437][560]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_door_irons_cutoff, compiling. 
+[2019.11.26-15.13.42:466][561]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2019.11.26-15.13.42:484][561]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2019.11.26-15.13.42:512][562]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Stairs_set, compiling. 
+[2019.11.26-15.13.42:529][562]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Stairs_set, compiling. 
+[2019.11.26-15.13.42:559][563]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_roof_planks, compiling. 
+[2019.11.26-15.13.42:574][563]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Church_roof_planks, compiling. 
+[2019.11.26-15.13.42:604][564]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Mixed_stone_wall_03_sand, compiling. 
+[2019.11.26-15.13.42:620][564]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Mixed_stone_wall_03_sand, compiling. 
+[2019.11.26-15.13.42:653][565]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2019.11.26-15.13.42:670][565]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2019.11.26-15.13.55:365][566]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 88
+[2019.11.26-15.13.55:365][566]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 78
+[2019.11.26-15.13.55:365][566]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 68
+[2019.11.26-15.13.55:365][566]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 58
+[2019.11.26-15.13.55:366][566]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 48
+[2019.11.26-15.13.55:366][566]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 38
+[2019.11.26-15.13.55:366][566]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
+[2019.11.26-15.13.55:366][566]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2019.11.26-15.13.55:366][566]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2019.11.26-15.13.55:366][566]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2019.11.26-15.13.55:366][566]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2019.11.26-15.13.55:366][566]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2019.11.26-15.13.55:367][566]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2019.11.26-15.13.55:367][566]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2019.11.26-15.13.55:367][566]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2019.11.26-15.13.56:294][602]LogSlate: Window 'Message Log' being destroyed
+[2019.11.26-15.13.56:306][602]LogSlate: Window 'Message Log' being destroyed
+[2019.11.26-15.13.56:809][618]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2019.11.26-15.14.04:798][ 45]MapCheck: New page: Map Check
+[2019.11.26-15.14.04:831][ 45]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.11.26-15.14.04:831][ 45]MapCheck: New page: MainLevel - Nov 26, 2019, 5:14:04 AM
+[2019.11.26-15.14.04:836][ 45]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2019.11.26-15.14.04:838][ 45]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 6.784ms to complete.
+[2019.11.26-15.14.04:840][ 45]LogEditorBuildUtils: Build time 0:00
+[2019.11.26-15.14.08:843][233]LightingResults: Warning: Grave_3 Object has overlapping UVs.
+[2019.11.26-15.14.08:843][233]LightingResults: Grave_3 Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.26-15.14.10:582][322]LogSlate: Window 'Message Log' being destroyed
+[2019.11.26-15.14.10:593][322]LogSlate: Window 'Message Log' being destroyed
+[2019.11.26-15.14.28:621][353]LightingResults: Warning: Grave_3 Object has overlapping UVs.
+[2019.11.26-15.14.28:621][353]LightingResults: Grave_3 Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.26-15.14.28:711][358]LightingResults: Warning: Grave_3 Object has overlapping UVs.
+[2019.11.26-15.14.28:712][358]LightingResults: Grave_3 Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.26-15.14.29:042][377]LightingResults: Warning: Grave_3 Object has overlapping UVs.
+[2019.11.26-15.14.29:042][377]LightingResults: Grave_3 Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.26-15.14.29:042][377]LightingResults: Warning: Grave_3 Object has overlapping UVs.
+[2019.11.26-15.14.29:042][377]LightingResults: Grave_3 Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.26-15.14.29:701][414]LightingResults: Warning: Grave_3 Object has overlapping UVs.
+[2019.11.26-15.14.29:701][414]LightingResults: Grave_3 Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.26-15.14.34:771][706]LightingResults: Warning: Big_gate_portal Object has overlapping UVs.
+[2019.11.26-15.14.34:771][706]LightingResults: Big_gate_portal Lightmap UV are overlapping by 1.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.26-15.14.37:759][878]Job is a success!
+[2019.11.26-15.14.37:922][879]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.087s
+[2019.11.26-15.14.37:922][879]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2019.11.26-15.14.37:923][879]LogVolumetricLightmapImport:      BrickData 1280x10x5 = 2.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2019.11.26-15.14.37:923][879]LogVolumetricLightmapImport:      Bricks at Level
+[2019.11.26-15.14.37:923][879]LogVolumetricLightmapImport:          0: 1.7% covering 100.0% of volume
+[2019.11.26-15.14.37:923][879]LogVolumetricLightmapImport:          1: 13.4% covering 12.5% of volume
+[2019.11.26-15.14.37:923][879]LogVolumetricLightmapImport:          2: 84.9% covering 1.2% of volume
+[2019.11.26-15.14.39:789][879]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2019.11.26-15.14.39:790][879]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2019.11.26-15.14.39:790][879]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2019.11.26-15.14.39:790][879]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2019.11.26-15.14.39:790][879]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2019.11.26-15.14.39:790][879]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2019.11.26-15.14.39:791][879]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64)
+[2019.11.26-15.14.39:791][879]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64)
+[2019.11.26-15.14.39:990][879]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2019.11.26-15.14.39:990][879]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 512X128)
+[2019.11.26-15.14.39:990][879]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 512X512)
+[2019.11.26-15.14.40:098][879]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2019.11.26-15.14.40:137][879]Lightmass on LILINBET: 42.5 sec total, 495 ms importing, 283 ms setup, 7.55 sec photons, 34.1 sec processing, 0 ms extra exporting [127/127 mappings]. Threads: 3:59 min total, 1:37 min processing.
+[2019.11.26-15.14.40:158][879]LogStaticLightingSystem: MainLevel_BuiltData storing lightmap data for 127 meshes in 7 LightmapResourceClusters (18.1 Meshes per cluster).
+[2019.11.26-15.14.40:182][879]LogMaterial: Display: Material /Game/PBR_Graveyard_and_Landscape/materials/M_grave_05.M_grave_05 needed to have new flag set bUsedWithStaticLighting !
+[2019.11.26-15.14.40:200][879]LogMaterial: Display: Missing cached shader map for material M_grave_05, compiling. 
+[2019.11.26-15.14.40:229][879]LogMaterial: Display: Material /Game/PBR_Graveyard_and_Landscape/materials/M_Church_roof_planks.M_Church_roof_planks needed to have new flag set bUsedWithStaticLighting !
+[2019.11.26-15.14.40:233][879]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 31
+[2019.11.26-15.14.40:233][879]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
+[2019.11.26-15.14.40:233][879]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2019.11.26-15.14.40:233][879]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2019.11.26-15.14.40:239][879]LogMaterial: Display: Missing cached shader map for material M_Church_roof_planks, compiling. 
+[2019.11.26-15.14.40:268][879]LogMaterial: Display: Material /Game/PBR_Graveyard_and_Landscape/materials/M_sarcophagus_1.M_sarcophagus_1 needed to have new flag set bUsedWithStaticLighting !
+[2019.11.26-15.14.40:273][879]LogMaterial: Display: Missing cached shader map for material M_sarcophagus_1, compiling. 
+[2019.11.26-15.14.40:304][879]LogMaterial: Display: Material /Game/PBR_Graveyard_and_Landscape/materials/M_sarcophagus_2.M_sarcophagus_2 needed to have new flag set bUsedWithStaticLighting !
+[2019.11.26-15.14.40:310][879]LogMaterial: Display: Missing cached shader map for material M_sarcophagus_2, compiling. 
+[2019.11.26-15.14.40:343][879]LogMaterial: Display: Material /Game/PBR_Graveyard_and_Landscape/materials/M_grave_body_cloth.M_grave_body_cloth needed to have new flag set bUsedWithStaticLighting !
+[2019.11.26-15.14.40:349][879]LogMaterial: Display: Missing cached shader map for material M_grave_body_cloth, compiling. 
+[2019.11.26-15.14.40:472][879]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
+[2019.11.26-15.14.40:478][879]LogStaticLightingSystem: Illumination: 1:07 min (1.68 sec encoding lightmaps, 303 ms encoding shadowmaps)
+[2019.11.26-15.14.40:478][879]LogStaticLightingSystem: Lightmap texture memory:  8.3 MB (8.3 MB streaming, 0.0 MB non-streaming), 8 textures
+[2019.11.26-15.14.40:479][879]LogStaticLightingSystem: Shadowmap texture memory: 1.8 MB (1.8 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.11.26-15.14.41:421][879]DumpUnbuiltLightIteractions
+[2019.11.26-15.14.41:422][879]Lights with unbuilt interactions: 0
+[2019.11.26-15.14.41:422][879]
+[2019.11.26-15.14.41:422][879]Primitives with unbuilt interactions: 0
+[2019.11.26-15.15.02:747][879]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 162
+[2019.11.26-15.15.02:747][879]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 152
+[2019.11.26-15.15.02:747][879]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 142
+[2019.11.26-15.15.02:747][879]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 132
+[2019.11.26-15.15.02:748][879]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 122
+[2019.11.26-15.15.02:748][879]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 112
+[2019.11.26-15.15.02:748][879]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 102
+[2019.11.26-15.15.02:748][879]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 92
+[2019.11.26-15.15.02:748][879]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 82
+[2019.11.26-15.15.02:748][879]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 72
+[2019.11.26-15.15.02:749][879]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 62
+[2019.11.26-15.15.02:749][879]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 52
+[2019.11.26-15.15.02:749][879]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 42
+[2019.11.26-15.15.02:749][879]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 32
+[2019.11.26-15.15.02:749][879]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2019.11.26-15.15.02:749][879]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
+[2019.11.26-15.15.02:749][879]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2019.11.26-15.15.02:749][879]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2019.11.26-15.15.02:750][879]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2019.11.26-15.15.02:750][879]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2019.11.26-15.15.02:750][879]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2019.11.26-15.15.02:750][879]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2019.11.26-15.15.02:838][880]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.11.26-15.15.02:839][880]MapCheck: New page: MainLevel - Nov 26, 2019, 5:15:02 AM
+[2019.11.26-15.15.02:840][880]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.347ms to complete.
+[2019.11.26-15.15.09:205][256]LogSlate: Window 'Message Log' being destroyed
+[2019.11.26-15.15.09:212][256]LogSlate: Window 'Message Log' being destroyed
+[2019.11.26-15.15.13:282][489]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.11.26-15.15.13:577][489]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevelFA0DD6CE409BD78FEF6D2AA562AE2188.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-15.15.13:611][489]LogFileHelpers: Saving map 'MainLevel' took 0.375
+[2019.11.26-15.15.33:141][623]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2019.11.26-15.15.33:444][623]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel52488FAC4506A336726420BA6AB5C661.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-15.15.33:478][623]LogFileHelpers: Saving map 'MainLevel' took 0.385
+[2019.11.26-15.15.34:426][678]BlueprintLog: New page: Compile MainLevel
+[2019.11.26-15.15.34:665][678]LogUObjectHash: Compacting FUObjectHashTables data took   5.51ms
+[2019.11.26-15.15.37:393][840]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.26-15.15.37:416][840]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-15.15.37:416][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.26-15.15.37:416][840]PIE: New page: PIE session: MainLevel (Nov 26, 2019, 5:15:37 AM)
+[2019.11.26-15.15.37:417][840]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-15.15.37:429][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012471s)
+[2019.11.26-15.15.37:429][840]LogAIModule: Creating AISystem for world MainLevel
+[2019.11.26-15.15.37:430][840]LogPlayLevel: PIE: World Init took: (0.001527s)
+[2019.11.26-15.15.37:430][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.014605s)
+[2019.11.26-15.15.37:470][840]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2019.11.26-15.15.37:506][840]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.26-15.15.37:523][840]LogInit: FAudioDevice initialized.
+[2019.11.26-15.15.37:538][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-15.15.37:539][840]LogLoad: Game class is 'GameModeBase'
+[2019.11.26-15.15.37:546][840]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2019.11.26-10.15.37
+[2019.11.26-15.15.37:547][840]LogWorld: Bringing up level for play took: 0.006954
+[2019.11.26-15.15.37:547][840]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2019.11.26-15.15.37:553][840]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.554
+[2019.11.26-15.15.37:554][840]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-15.15.43:033][167]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-15.15.43:034][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-15.15.43:034][167]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-15.15.43:050][167]LogSlate: Window 'VRHalloweenPrototype Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.26-15.15.43:060][167]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-15.15.43:071][167]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.26-15.15.43:071][167]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-15.15.43:133][167]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.11.26-15.15.43:154][168]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.11.26-15.15.44:206][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2019.11.26-15.15.44:501][220]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevelFF7C2B41476DA867E547C9A3699B6E1C.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-15.15.44:533][220]LogFileHelpers: Saving map 'MainLevel' took 0.370
