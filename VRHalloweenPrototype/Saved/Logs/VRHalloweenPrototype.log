@@ -2692,3 +2692,350 @@ Make sure 'MainLevel_C' has been compiled for  Set CandyPrompt
 [2019.11.26-16.26.02:872][102]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 9.788ms to complete.
 [2019.11.26-16.26.02:874][102]LogEditorBuildUtils: Build time 0:13
 [2019.11.26-16.26.03:417][106]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2019.11.26-16.26.14:762][379]LightingResults: Warning: Grave_3 Object has overlapping UVs.
+[2019.11.26-16.26.14:762][379]LightingResults: Grave_3 Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.26-16.26.36:223][616]LightingResults: Warning: Grave_3 Object has overlapping UVs.
+[2019.11.26-16.26.36:223][616]LightingResults: Grave_3 Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.26-16.26.36:255][618]LightingResults: Warning: Grave_3 Object has overlapping UVs.
+[2019.11.26-16.26.36:256][618]LightingResults: Grave_3 Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.26-16.26.36:534][634]LightingResults: Warning: Grave_3 Object has overlapping UVs.
+[2019.11.26-16.26.36:534][634]LightingResults: Grave_3 Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.26-16.26.37:090][666]LightingResults: Warning: Grave_3 Object has overlapping UVs.
+[2019.11.26-16.26.37:090][666]LightingResults: Grave_3 Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.26-16.26.37:577][693]LightingResults: Warning: Grave_3 Object has overlapping UVs.
+[2019.11.26-16.26.37:577][693]LightingResults: Grave_3 Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.26-16.26.42:831][992]LightingResults: Warning: Big_gate_portal Object has overlapping UVs.
+[2019.11.26-16.26.45:909][170]Job is a success!
+[2019.11.26-16.26.46:078][171]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.082s
+[2019.11.26-16.26.46:078][171]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2019.11.26-16.26.46:078][171]LogVolumetricLightmapImport:      BrickData 1280x10x5 = 2.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2019.11.26-16.26.46:078][171]LogVolumetricLightmapImport:      Bricks at Level
+[2019.11.26-16.26.46:078][171]LogVolumetricLightmapImport:          0: 1.7% covering 100.0% of volume
+[2019.11.26-16.26.46:078][171]LogVolumetricLightmapImport:          1: 13.4% covering 12.5% of volume
+[2019.11.26-16.26.46:078][171]LogVolumetricLightmapImport:          2: 84.9% covering 1.2% of volume
+[2019.11.26-16.26.48:225][171]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 2048X2048)
+[2019.11.26-16.26.48:226][171]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 2048X2048)
+[2019.11.26-16.26.48:226][171]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2019.11.26-16.26.48:226][171]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2019.11.26-16.26.48:226][171]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2019.11.26-16.26.48:226][171]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2019.11.26-16.26.48:227][171]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 64X64)
+[2019.11.26-16.26.48:227][171]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 64X64)
+[2019.11.26-16.26.48:427][171]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (G8, 32X32)
+[2019.11.26-16.26.48:427][171]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (G8, 512X128)
+[2019.11.26-16.26.48:427][171]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 512X512)
+[2019.11.26-16.26.48:574][171]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 1024X1024)
+[2019.11.26-16.26.48:613][171]Lightmass on LILINBET: 44.5 sec total, 381 ms importing, 243 ms setup, 6.97 sec photons, 36.9 sec processing, 0 ms extra exporting [127/127 mappings]. Threads: 4:18 min total, 1:32 min processing.
+[2019.11.26-16.26.48:616][171]LogStaticLightingSystem: MainLevel_BuiltData storing lightmap data for 127 meshes in 7 LightmapResourceClusters (18.1 Meshes per cluster).
+[2019.11.26-16.26.48:695][171]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2019.11.26-16.26.48:702][171]LogStaticLightingSystem: Illumination: 50.5 sec (1.96 sec encoding lightmaps, 342 ms encoding shadowmaps)
+[2019.11.26-16.26.48:703][171]LogStaticLightingSystem: Lightmap texture memory:  8.3 MB (8.3 MB streaming, 0.0 MB non-streaming), 8 textures
+[2019.11.26-16.26.48:703][171]LogStaticLightingSystem: Shadowmap texture memory: 1.8 MB (1.8 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.11.26-16.26.49:676][171]DumpUnbuiltLightIteractions
+[2019.11.26-16.26.49:676][171]Lights with unbuilt interactions: 0
+[2019.11.26-16.26.49:676][171]
+[2019.11.26-16.26.49:676][171]Primitives with unbuilt interactions: 0
+[2019.11.26-16.26.49:807][172]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.11.26-16.26.49:807][172]MapCheck: New page: MainLevel - Nov 26, 2019, 6:26:49 AM
+[2019.11.26-16.26.49:809][172]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.488ms to complete.
+[2019.11.26-16.28.09:722][964]LogSlate: Window 'Message Log' being destroyed
+[2019.11.26-16.28.09:729][964]LogSlate: Window 'Message Log' being destroyed
+[2019.11.26-16.28.36:004][715]LogEditorTransaction: Undo Move Nodes
+[2019.11.26-16.28.39:485][917]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-16.28.42:098][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2019.11.26-16.28.42:390][ 58]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel9FC51D5E4BBA9BE9CB6726BF79047D75.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-16.28.42:527][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel_BuiltData" FILE="../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel_BuiltData.uasset" SILENT=true
+[2019.11.26-16.28.43:073][ 58]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel_BuiltData2A1655AA466B3D3A011C36B2A21901C6.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel_BuiltData.uasset'
+[2019.11.26-16.28.45:274][187]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.26-16.28.45:294][187]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.28.45:294][187]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.26-16.28.45:306][187]LogPlayLevel: [PlayLevel] Compiling MotionControllerPawn before play...
+[2019.11.26-16.28.45:608][187]LogUObjectHash: Compacting FUObjectHashTables data took   4.57ms
+[2019.11.26-16.28.45:608][187]LogPlayLevel: PlayLevel: Blueprint regeneration took 313 ms (1 blueprints)
+[2019.11.26-16.28.45:608][187]PIE: New page: PIE session: MainLevel (Nov 26, 2019, 6:28:45 AM)
+[2019.11.26-16.28.45:609][187]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-16.28.45:621][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011972s)
+[2019.11.26-16.28.45:622][187]LogAIModule: Creating AISystem for world MainLevel
+[2019.11.26-16.28.45:622][187]LogPlayLevel: PIE: World Init took: (0.001384s)
+[2019.11.26-16.28.45:622][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.013875s)
+[2019.11.26-16.28.45:656][187]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2019.11.26-16.28.45:690][187]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.26-16.28.45:710][187]LogInit: FAudioDevice initialized.
+[2019.11.26-16.28.45:716][187]LogLoad: Game class is 'GameModeBase'
+[2019.11.26-16.28.45:721][187]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2019.11.26-11.28.45
+[2019.11.26-16.28.45:722][187]LogWorld: Bringing up level for play took: 0.005037
+[2019.11.26-16.28.45:722][187]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2019.11.26-16.28.45:725][187]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.382
+[2019.11.26-16.28.45:726][187]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.28.48:515][351]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.28.48:517][351]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-16.28.48:518][351]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-16.28.48:519][351]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-16.28.48:543][351]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.26-16.28.48:544][351]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.28.48:623][351]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-16.28.48:629][351]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2019.11.26-16.28.48:661][352]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2019.11.26-16.29.12:346][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-16.29.50:457][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-16.29.52:140][590]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-16.32.43:484][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-16.33.20:368][370]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.20:377][370]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.11.26-16.33.21:304][370]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.927 s
+[2019.11.26-16.33.21:305][370]LogOutputDevice: Error: === Handled ensure: ===
+[2019.11.26-16.33.21:305][370]LogOutputDevice: Error: 
+[2019.11.26-16.33.21:305][370]LogOutputDevice: Error: Ensure condition failed: false [File:D:/Build/++UE4/Sync/Engine/Source/Editor/UnrealEd/Private/Kismet2/KismetDebugUtilities.cpp] [Line: 1154]
+[2019.11.26-16.33.21:305][370]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2019.11.26-16.33.21:305][370]LogOutputDevice: Error: Stack: 
+[2019.11.26-16.33.21:305][370]LogOutputDevice: Error: [Callstack] 0x00007ff9a3ac5279 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.26-16.33.21:305][370]LogOutputDevice: Error: [Callstack] 0x00007ff9a32e7fca UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.26-16.33.21:305][370]LogOutputDevice: Error: [Callstack] 0x00007ff9a32f622f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.26-16.33.21:305][370]LogOutputDevice: Error: [Callstack] 0x00007ff991c66c91 UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.11.26-16.33.21:306][370]LogOutputDevice: Error: [Callstack] 0x00007ff990874dca UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.11.26-16.33.21:306][370]LogOutputDevice: Error: [Callstack] 0x00007ff99082e057 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.11.26-16.33.21:306][370]LogOutputDevice: Error: [Callstack] 0x00007ff9a514d644 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.26-16.33.21:306][370]LogOutputDevice: Error: [Callstack] 0x00007ff9a533c533 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.26-16.33.21:306][370]LogOutputDevice: Error: [Callstack] 0x00007ff9a519922b UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.26-16.33.21:306][370]LogOutputDevice: Error: [Callstack] 0x00007ff9a5175738 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.26-16.33.21:306][370]LogOutputDevice: Error: [Callstack] 0x00007ff9a5169a1e UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.26-16.33.21:306][370]LogOutputDevice: Error: [Callstack] 0x00007ff9da834c4c UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.26-16.33.21:307][370]LogOutputDevice: Error: [Callstack] 0x00007ff9da8226df UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.26-16.33.21:307][370]LogOutputDevice: Error: [Callstack] 0x00007ff9da837340 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.26-16.33.21:307][370]LogOutputDevice: Error: [Callstack] 0x00007ff9da81edd0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.26-16.33.21:307][370]LogOutputDevice: Error: [Callstack] 0x00007ffa0ff3c906 USER32.dll!UnknownFunction []
+[2019.11.26-16.33.21:307][370]LogOutputDevice: Error: [Callstack] 0x00007ffa0ff3c422 USER32.dll!UnknownFunction []
+[2019.11.26-16.33.21:307][370]LogOutputDevice: Error: [Callstack] 0x00007ff9da8388e9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.26-16.33.21:307][370]LogOutputDevice: Error: [Callstack] 0x00007ff6d0176980 UE4Editor.exe!UnknownFunction []
+[2019.11.26-16.33.21:307][370]LogOutputDevice: Error: [Callstack] 0x00007ff6d018a91c UE4Editor.exe!UnknownFunction []
+[2019.11.26-16.33.21:307][370]LogOutputDevice: Error: [Callstack] 0x00007ff6d018a9fa UE4Editor.exe!UnknownFunction []
+[2019.11.26-16.33.21:308][370]LogOutputDevice: Error: [Callstack] 0x00007ff6d019b92c UE4Editor.exe!UnknownFunction []
+[2019.11.26-16.33.21:308][370]LogOutputDevice: Error: [Callstack] 0x00007ff6d019e60e UE4Editor.exe!UnknownFunction []
+[2019.11.26-16.33.21:308][370]LogOutputDevice: Error: [Callstack] 0x00007ffa10247974 KERNEL32.DLL!UnknownFunction []
+[2019.11.26-16.33.21:308][370]LogOutputDevice: Error: [Callstack] 0x00007ffa109aa271 ntdll.dll!UnknownFunction []
+[2019.11.26-16.33.21:308][370]LogOutputDevice: Error: 
+[2019.11.26-16.33.21:321][370]LogStats:                SubmitErrorReport -  0.000 s
+[2019.11.26-16.33.23:185][370]LogStats:                    SendNewReport -  1.865 s
+[2019.11.26-16.33.23:185][370]LogStats:             FDebug::EnsureFailed -  2.809 s
+[2019.11.26-16.33.23:186][370]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:240][733]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:241][733]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:243][733]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:245][733]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:253][734]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:254][734]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:259][734]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:270][735]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:271][735]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:274][735]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:288][736]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:289][736]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:290][736]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:293][736]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:304][737]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:306][737]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:320][738]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:322][738]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:337][739]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:339][739]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:354][740]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:356][740]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:370][741]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:371][741]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:373][741]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:387][742]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:389][742]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:404][743]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:405][743]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:408][743]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:420][744]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:423][744]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:427][744]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:641][757]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:642][757]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:643][757]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:646][757]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:654][758]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:655][758]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:659][758]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:671][759]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:673][759]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:673][759]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:677][759]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:689][760]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:691][760]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.29:693][760]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:356][800]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:357][800]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:359][800]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:362][800]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:373][801]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:377][801]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:390][802]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:392][802]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:406][803]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:408][803]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:422][804]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:425][804]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:439][805]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:442][805]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:456][806]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:458][806]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:472][807]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:473][807]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:476][807]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:489][808]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:490][808]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:494][808]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:507][809]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:511][809]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:523][810]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:527][810]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:540][811]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:544][811]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:557][812]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:561][812]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:573][813]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:576][813]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:578][813]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:711][821]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:712][821]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:714][821]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:717][821]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:721][821]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:743][823]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:744][823]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:747][823]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:752][823]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:760][824]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:761][824]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:767][824]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:777][825]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:779][825]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:781][825]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:795][826]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:796][826]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:811][827]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:815][827]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:828][828]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:835][828]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:844][829]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:849][829]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:861][830]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:866][830]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:878][831]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:884][831]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:895][832]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:898][832]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:911][833]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:918][833]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:929][834]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:932][834]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:944][835]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:947][835]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:960][836]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:964][836]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:977][837]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:980][837]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:994][838]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.30:996][838]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:010][839]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:013][839]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:027][840]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:029][840]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:044][841]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:046][841]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:060][842]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:061][842]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:063][842]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:093][844]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:094][844]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:097][844]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:100][844]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:102][844]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:111][845]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:115][845]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:127][846]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:128][846]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:130][846]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:144][847]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:145][847]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:149][847]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:161][848]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:163][848]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:177][849]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:178][849]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:180][849]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:194][850]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:196][850]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:211][851]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:213][851]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:244][853]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:261][854]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:262][854]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:265][854]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:269][854]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:277][855]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:278][855]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:282][855]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:293][856]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:295][856]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:301][856]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:310][857]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:315][857]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:328][858]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:330][858]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:343][859]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:345][859]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:361][860]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:364][860]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:377][861]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:380][861]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:394][862]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:396][862]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:411][863]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:414][863]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:427][864]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:430][864]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:444][865]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:447][865]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:460][866]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:464][866]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:477][867]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:480][867]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:494][868]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:497][868]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:511][869]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:513][869]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:528][870]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:531][870]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:545][871]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:547][871]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:561][872]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:563][872]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:577][873]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:577][873]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.31:580][873]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:561][932]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:561][932]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:564][932]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:569][932]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:577][933]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:578][933]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:584][933]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:594][934]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:595][934]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:598][934]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:611][935]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:612][935]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:617][935]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:628][936]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:629][936]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:632][936]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.32:647][937]LogUObjectBase: Warning: Object is not registered
+[2019.11.26-16.33.38:132][254]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/BP_PickupCube_CandyD4ADECD84F24E4F5FEE8EB88E3BC1CDE.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/BP_PickupCube_Candy.uasset'
+[2019.11.26-16.33.41:345][444]BlueprintLog: New page: Compile BP_PickupCube_Candy
+[2019.11.26-16.33.41:569][444]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
