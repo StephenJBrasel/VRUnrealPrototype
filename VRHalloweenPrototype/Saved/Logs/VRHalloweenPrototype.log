@@ -2227,3 +2227,468 @@ Make sure 'MainLevel_C' has been compiled for  Set CandyPrompt
 [2019.11.26-15.52.15:978][488]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel5CCC68FF4D361001669A5C8ABCF3D4D3.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
 [2019.11.26-15.52.16:121][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel_BuiltData" FILE="../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel_BuiltData.uasset" SILENT=true
 [2019.11.26-15.52.16:567][488]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel_BuiltData2CB6302240CEE771FB9F9DA9B9067A35.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel_BuiltData.uasset'
+[2019.11.26-15.52.49:764][ 31]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2019.11.26-15.52.59:154][593]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-15.54.41:262][953]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/BP_PickupCube_CandyE0A09C284489E9501D24DE893D3805B8.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/BP_PickupCube_Candy.uasset'
+[2019.11.26-15.54.47:049][295]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-15.55.03:121][258]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.26-15.55.04:696][351]LogEditorViewport: Clicking on Actor (LMB): BP_PickupCube_Candy_C (BP_PickupCube_Candy9)
+[2019.11.26-15.55.05:762][413]Cmd: DELETE
+[2019.11.26-15.55.05:762][413]Cmd: ACTOR DELETE
+[2019.11.26-15.55.05:765][413]LogEditorActor: Deleted Actor: BP_PickupCube_Candy_C
+[2019.11.26-15.55.05:801][413]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2019.11.26-15.55.05:802][413]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2019.11.26-15.55.06:456][452]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.11.26-15.55.06:615][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.11.26-15.55.06:869][452]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel4099BE974F97E8AA1D3DA3807DB03402.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-15.55.07:023][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel_BuiltData" FILE="../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel_BuiltData.uasset" SILENT=true
+[2019.11.26-15.55.07:469][452]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel_BuiltData3D8DDA3C41C53B229AF9B6B96F6BAED5.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel_BuiltData.uasset'
+[2019.11.26-15.55.43:612][615]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel
+[2019.11.26-15.56.08:897][839]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum
+[2019.11.26-15.56.11:737][992]LogSlate: Window 'GripEnum' being destroyed
+[2019.11.26-15.56.11:744][992]LogSlate: Window 'GripEnum' being destroyed
+[2019.11.26-15.56.23:751][133]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.26-15.56.37:730][961]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/CharacteManager.CharacteManager
+[2019.11.26-15.56.46:026][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-15.56.46:896][470]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/CharacteManager567724FD4793042E4BA77483FF21F4CC.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/CharacteManager.uasset'
+[2019.11.26-15.57.15:835][187]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.26-15.57.15:835][187]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.26-15.57.35:640][358]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/CharacteManager2DDA11294933A1D63F0B0EAF3DA6EDB2.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/CharacteManager.uasset'
+[2019.11.26-15.57.38:059][500]LogSlate: Window 'CharacteManager' being destroyed
+[2019.11.26-15.57.55:232][500]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2019.11.26-15.57.55:518][500]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevelBD6E547F40A3F932F719CD9B6282486D.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-15.57.55:550][500]LogFileHelpers: Saving map 'MainLevel' took 0.359
+[2019.11.26-16.04.13:270][655]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2019.11.26-16.04.13:562][655]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevelFD7EF8B64EF7A08DE9D9ACB4BDB4C6A9.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-16.04.13:607][655]LogFileHelpers: Saving map 'MainLevel' took 0.385
+[2019.11.26-16.07.04:221][466]BlueprintLog: New page: Compile MainLevel
+[2019.11.26-16.07.04:466][466]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2019.11.26-16.07.18:229][290]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.26-16.07.26:208][756]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2019.11.26-16.07.26:498][756]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevelE2408E1F4AC13D6D40E9DF86645FB17D.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-16.07.26:547][756]LogFileHelpers: Saving map 'MainLevel' took 0.380
+[2019.11.26-16.09.43:852][148]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.26-16.10.36:957][219]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.26-16.10.44:947][695]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-16.11.05:939][854]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.26-16.11.17:509][526]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2019.11.26-16.11.18:709][526]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.26-16.11.20:439][526]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/VirtualRealityBP/Blueprints/CharacteManager.CharacteManager
+[2019.11.26-16.11.20:719][526]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2019.11.26-16.11.21:086][526]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2019.11.26-16.11.21:122][526]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2019.11.26-16.11.21:159][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.26-16.11.21:339][526]SourceControl: rm 'VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/CharacteManager.uasset'
+[2019.11.26-16.11.22:109][567]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/MainCharacter.MainCharacter
+[2019.11.26-16.11.30:773][ 32]LogSlate: Window 'MainCharacter' being destroyed
+[2019.11.26-16.11.59:026][686]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainCharacterF56E25B947A2E7A2BCA9AF971EC07F7F.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/MainCharacter.uasset'
+[2019.11.26-16.12.21:772][ 19]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainCharacterF5BB23F04ECE7634E05E0D8D6CD0C7AD.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/MainCharacter.uasset'
+[2019.11.26-16.12.34:524][765]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2019.11.26-16.12.34:538][765]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] The type of  Object  is undetermined.  Connect something to  Cast To MainCharacter  to imply a specific type.
+[2019.11.26-16.12.34:539][765]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2019.11.26-16.12.34:539][765]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] The property associated with  Candy Amount  could not be found in '/Game/Maps/MainLevel.MainLevel_C'
+[2019.11.26-16.12.34:824][765]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel0895593C4B7DC8E713C5049C5D1BD9B1.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-16.12.34:861][765]LogFileHelpers: Saving map 'MainLevel' took 0.384
+[2019.11.26-16.13.28:973][846]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2019.11.26-16.13.28:979][846]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] The property associated with  Candy Amount  could not be found in '/Game/Maps/MainLevel.MainLevel_C'
+[2019.11.26-16.13.29:273][846]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel6C10BA724510B77E9F2C17B8BE974C2E.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-16.13.29:324][846]LogFileHelpers: Saving map 'MainLevel' took 0.393
+[2019.11.26-16.13.39:916][479]BlueprintLog: New page: Compile MainLevel
+[2019.11.26-16.13.39:921][479]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] The type of  Object  is undetermined.  Connect something to  Cast To MainCharacter  to imply a specific type.
+[2019.11.26-16.13.39:922][479]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2019.11.26-16.13.39:922][479]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] The property associated with  Candy Amount  could not be found in '/Game/Maps/MainLevel.MainLevel_C'
+[2019.11.26-16.13.40:154][479]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2019.11.26-16.14.36:528][711]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2019.11.26-16.14.36:535][711]LogBlueprint: Warning: [Compiler PersistentLevel.MainLevel] 'Main Character' does not inherit from 'Character' ( Cast To MainCharacter  would always fail).
+[2019.11.26-16.14.36:536][711]LogBlueprint: Error: [Compiler PersistentLevel.MainLevel] The property associated with  Candy Amount  could not be found in '/Game/Maps/MainLevel.MainLevel_C'
+[2019.11.26-16.14.36:837][711]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel282F718A42EA3C78857EEDA4BCEB39A1.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-16.14.36:876][711]LogFileHelpers: Saving map 'MainLevel' took 0.389
+[2019.11.26-16.15.48:889][401]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-16.15.53:240][649]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2019.11.26-16.16.04:172][649]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.26-16.16.19:014][ 19]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/PickupActorInterface.PickupActorInterface
+[2019.11.26-16.16.21:538][138]LogSlate: Window 'PickupActorInterface' being destroyed
+[2019.11.26-16.16.21:576][138]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-16.16.28:825][563]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/MainCharacter.MainCharacter
+[2019.11.26-16.16.32:367][747]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-16.16.48:781][628]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2019.11.26-16.17.22:738][591]BlueprintLog: New page: Compile MotionControllerPawn
+[2019.11.26-16.17.23:002][591]LogUObjectHash: Compacting FUObjectHashTables data took   5.57ms
+[2019.11.26-16.17.39:206][517]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2019.11.26-16.17.39:224][517]LogBlueprint: Warning: [Compiler PersistentLevel.MainLevel] 'Main Character' does not inherit from 'Character' ( Cast To MainCharacter  would always fail).
+[2019.11.26-16.17.39:593][517]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevelB5A385DA41AAC7DD60D7ACAAAC08F367.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-16.17.39:628][517]LogFileHelpers: Saving map 'MainLevel' took 0.464
+[2019.11.26-16.17.49:557][ 98]BlueprintLog: New page: Compile MotionControllerPawn
+[2019.11.26-16.17.49:785][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2019.11.26-16.17.50:942][142]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MotionControllerPawn3D84009E4D9D22EFA6FA83A42381E468.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2019.11.26-16.18.00:234][674]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.11.26-16.18.00:239][674]LogBlueprint: Warning: [Compiler PersistentLevel.MainLevel] 'Main Character' does not inherit from 'Character' ( Cast To MainCharacter  would always fail).
+[2019.11.26-16.18.00:543][674]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel6C97C4F44C82B505C727F5ADFE8C841D.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-16.18.00:587][674]LogFileHelpers: Saving map 'MainLevel' took 0.393
+[2019.11.26-16.18.13:828][451]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2019.11.26-16.18.14:118][451]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel96ABD373418BCD0C7B5BED8C89438946.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-16.18.14:158][451]LogFileHelpers: Saving map 'MainLevel' took 0.370
+[2019.11.26-16.19.07:605][252]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.26-16.19.20:405][ 16]BlueprintLog: New page: Compile MainLevel
+[2019.11.26-16.19.20:647][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.11.26-16.19.22:926][141]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2019.11.26-16.19.23:214][141]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel70181CD743F6D019C2899994FC23633A.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-16.19.23:265][141]LogFileHelpers: Saving map 'MainLevel' took 0.380
+[2019.11.26-16.19.36:185][549]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.26-16.19.36:207][549]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.19.36:207][549]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.26-16.19.36:208][549]LogPlayLevel: [PlayLevel] Compiling MainCharacter before play...
+[2019.11.26-16.19.36:256][549]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2019.11.26-16.19.36:257][549]LogPlayLevel: PlayLevel: Blueprint regeneration took 48 ms (1 blueprints)
+[2019.11.26-16.19.36:257][549]PIE: New page: PIE session: MainLevel (Nov 26, 2019, 6:19:36 AM)
+[2019.11.26-16.19.36:257][549]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-16.19.36:271][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013366s)
+[2019.11.26-16.19.36:272][549]LogAIModule: Creating AISystem for world MainLevel
+[2019.11.26-16.19.36:272][549]LogPlayLevel: PIE: World Init took: (0.001575s)
+[2019.11.26-16.19.36:273][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.015575s)
+[2019.11.26-16.19.36:314][549]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2019.11.26-16.19.36:347][549]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.26-16.19.36:367][549]LogInit: FAudioDevice initialized.
+[2019.11.26-16.19.36:374][549]LogLoad: Game class is 'GameModeBase'
+[2019.11.26-16.19.36:380][549]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2019.11.26-11.19.36
+[2019.11.26-16.19.36:380][549]LogWorld: Bringing up level for play took: 0.005079
+[2019.11.26-16.19.36:381][549]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2019.11.26-16.19.36:385][549]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.277
+[2019.11.26-16.19.36:385][549]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.19.38:935][700]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.19.38:936][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-16.19.38:937][700]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-16.19.38:937][700]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-16.19.38:999][700]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.26-16.19.39:000][700]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.19.39:045][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-16.19.39:050][700]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2019.11.26-16.19.39:070][701]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2019.11.26-16.19.41:124][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-16.22.39:054][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2019.11.26-16.22.39:387][431]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel531145AF4682589662DB22AADE7FCB2C.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-16.22.39:434][431]LogFileHelpers: Saving map 'MainLevel' took 0.421
+[2019.11.26-16.22.59:597][599]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2019.11.26-16.22.59:892][599]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel0FFBA3FF4239ED117FF7A5B51F52229D.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-16.22.59:934][599]LogFileHelpers: Saving map 'MainLevel' took 0.375
+[2019.11.26-16.23.01:551][693]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.26-16.23.01:578][693]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.23.01:579][693]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.26-16.23.01:579][693]PIE: New page: PIE session: MainLevel (Nov 26, 2019, 6:23:01 AM)
+[2019.11.26-16.23.01:579][693]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-16.23.01:594][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014785s)
+[2019.11.26-16.23.01:595][693]LogAIModule: Creating AISystem for world MainLevel
+[2019.11.26-16.23.01:596][693]LogPlayLevel: PIE: World Init took: (0.001578s)
+[2019.11.26-16.23.01:596][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.016986s)
+[2019.11.26-16.23.01:642][693]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2019.11.26-16.23.01:683][693]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.26-16.23.01:710][693]LogInit: FAudioDevice initialized.
+[2019.11.26-16.23.01:729][693]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-16.23.01:730][693]LogLoad: Game class is 'GameModeBase'
+[2019.11.26-16.23.01:738][693]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2019.11.26-11.23.01
+[2019.11.26-16.23.01:739][693]LogWorld: Bringing up level for play took: 0.007834
+[2019.11.26-16.23.01:739][693]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2019.11.26-16.23.01:747][693]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.36
+[2019.11.26-16.23.01:748][693]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.23.04:057][829]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.23.04:057][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-16.23.04:058][829]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-16.23.04:077][829]LogSlate: Window 'VRHalloweenPrototype Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.26-16.23.04:084][829]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-16.23.04:136][829]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.26-16.23.04:136][829]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.23.04:190][829]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2019.11.26-16.23.04:215][830]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2019.11.26-16.23.21:345][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.11.26-16.23.21:634][803]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevelFA4E83994DD124815C2064A12CB1F27A.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-16.23.21:687][803]LogFileHelpers: Saving map 'MainLevel' took 0.381
+[2019.11.26-16.23.22:030][822]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.26-16.23.22:054][822]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.23.22:054][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.26-16.23.22:054][822]PIE: New page: PIE session: MainLevel (Nov 26, 2019, 6:23:22 AM)
+[2019.11.26-16.23.22:055][822]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-16.23.22:069][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014175s)
+[2019.11.26-16.23.22:071][822]LogAIModule: Creating AISystem for world MainLevel
+[2019.11.26-16.23.22:071][822]LogPlayLevel: PIE: World Init took: (0.001824s)
+[2019.11.26-16.23.22:071][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.016656s)
+[2019.11.26-16.23.22:121][822]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2019.11.26-16.23.22:154][822]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.26-16.23.22:172][822]LogInit: FAudioDevice initialized.
+[2019.11.26-16.23.22:191][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-16.23.22:192][822]LogLoad: Game class is 'GameModeBase'
+[2019.11.26-16.23.22:200][822]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2019.11.26-11.23.22
+[2019.11.26-16.23.22:201][822]LogWorld: Bringing up level for play took: 0.008008
+[2019.11.26-16.23.22:201][822]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2019.11.26-16.23.22:208][822]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.101
+[2019.11.26-16.23.22:208][822]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.23.24:729][969]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.23.24:730][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-16.23.24:730][969]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-16.23.24:746][969]LogSlate: Window 'VRHalloweenPrototype Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.26-16.23.24:758][969]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-16.23.24:781][969]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.26-16.23.24:782][969]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.23.24:824][969]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2019.11.26-16.23.24:851][970]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2019.11.26-16.23.25:548][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.11.26-16.23.25:865][995]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevel02569870479990C284C13F82BD9B5461.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-16.23.25:901][995]LogFileHelpers: Saving map 'MainLevel' took 0.395
+[2019.11.26-16.23.45:652][125]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.11.26-16.23.45:933][125]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevelD05B5BFF47700184D4B0379BFF8043D7.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-16.23.45:968][125]LogFileHelpers: Saving map 'MainLevel' took 0.358
+[2019.11.26-16.24.01:698][ 45]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/BP_PickupCube_CandyB777A6FA4F27591A1224EB83D7546FCF.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/BP_PickupCube_Candy.uasset'
+[2019.11.26-16.24.49:493][811]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/BP_PickupCube_CandyE54D60DB4098922D3016B39EE5C222E7.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/BP_PickupCube_Candy.uasset'
+[2019.11.26-16.24.50:493][870]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.26-16.24.50:522][870]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.24.50:523][870]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.26-16.24.50:524][870]LogPlayLevel: [PlayLevel] Compiling BP_PickupCube_Candy before play...
+[2019.11.26-16.24.50:786][870]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2019.11.26-16.24.50:787][870]LogPlayLevel: PlayLevel: Blueprint regeneration took 263 ms (1 blueprints)
+[2019.11.26-16.24.50:787][870]PIE: New page: PIE session: MainLevel (Nov 26, 2019, 6:24:50 AM)
+[2019.11.26-16.24.50:787][870]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-16.24.50:802][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014433s)
+[2019.11.26-16.24.50:803][870]LogAIModule: Creating AISystem for world MainLevel
+[2019.11.26-16.24.50:804][870]LogPlayLevel: PIE: World Init took: (0.001262s)
+[2019.11.26-16.24.50:804][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.016332s)
+[2019.11.26-16.24.50:843][870]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2019.11.26-16.24.50:877][870]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.26-16.24.50:895][870]LogInit: FAudioDevice initialized.
+[2019.11.26-16.24.50:912][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-16.24.50:912][870]LogLoad: Game class is 'GameModeBase'
+[2019.11.26-16.24.50:921][870]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2019.11.26-11.24.50
+[2019.11.26-16.24.50:921][870]LogWorld: Bringing up level for play took: 0.008043
+[2019.11.26-16.24.50:922][870]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2019.11.26-16.24.50:930][870]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.823
+[2019.11.26-16.24.50:931][870]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.24.52:073][934]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.24.52:073][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-16.24.52:074][934]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-16.24.52:095][934]LogSlate: Window 'VRHalloweenPrototype Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.26-16.24.52:107][934]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-16.24.52:170][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.26-16.24.52:170][934]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.24.52:223][934]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2019.11.26-16.24.52:263][935]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2019.11.26-16.24.52:901][962]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/BP_PickupCube_Candy111EC21A439EC05E3F5A87A02081A9BD.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/BP_PickupCube_Candy.uasset'
+[2019.11.26-16.24.57:270][218]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.26-16.24.57:293][218]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.24.57:293][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.26-16.24.57:294][218]PIE: New page: PIE session: MainLevel (Nov 26, 2019, 6:24:57 AM)
+[2019.11.26-16.24.57:294][218]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-16.24.57:308][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013610s)
+[2019.11.26-16.24.57:309][218]LogAIModule: Creating AISystem for world MainLevel
+[2019.11.26-16.24.57:309][218]LogPlayLevel: PIE: World Init took: (0.001343s)
+[2019.11.26-16.24.57:310][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.015699s)
+[2019.11.26-16.24.57:351][218]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2019.11.26-16.24.57:389][218]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.26-16.24.57:408][218]LogInit: FAudioDevice initialized.
+[2019.11.26-16.24.57:426][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-16.24.57:427][218]LogLoad: Game class is 'GameModeBase'
+[2019.11.26-16.24.57:434][218]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2019.11.26-11.24.57
+[2019.11.26-16.24.57:435][218]LogWorld: Bringing up level for play took: 0.007665
+[2019.11.26-16.24.57:436][218]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2019.11.26-16.24.57:447][218]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.661
+[2019.11.26-16.24.57:447][218]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.24.58:191][260]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.24.58:193][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-16.24.58:194][260]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-16.24.58:213][260]LogSlate: Window 'VRHalloweenPrototype Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.26-16.24.58:223][260]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-16.24.58:285][260]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.26-16.24.58:286][260]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.24.58:341][260]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2019.11.26-16.24.58:445][261]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2019.11.26-16.25.00:495][383]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.26-16.25.00:517][383]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.25.00:517][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.26-16.25.00:518][383]PIE: New page: PIE session: MainLevel (Nov 26, 2019, 6:25:00 AM)
+[2019.11.26-16.25.00:518][383]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-16.25.00:532][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013423s)
+[2019.11.26-16.25.00:533][383]LogAIModule: Creating AISystem for world MainLevel
+[2019.11.26-16.25.00:534][383]LogPlayLevel: PIE: World Init took: (0.001826s)
+[2019.11.26-16.25.00:534][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.015874s)
+[2019.11.26-16.25.00:579][383]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2019.11.26-16.25.00:623][383]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.26-16.25.00:644][383]LogInit: FAudioDevice initialized.
+[2019.11.26-16.25.00:664][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-16.25.00:664][383]LogLoad: Game class is 'GameModeBase'
+[2019.11.26-16.25.00:673][383]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2019.11.26-11.25.00
+[2019.11.26-16.25.00:673][383]LogWorld: Bringing up level for play took: 0.007709
+[2019.11.26-16.25.00:673][383]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2019.11.26-16.25.00:680][383]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.573
+[2019.11.26-16.25.00:680][383]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.25.06:534][696]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.25.06:535][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-16.25.06:537][696]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-16.25.06:562][696]LogSlate: Window 'VRHalloweenPrototype Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.26-16.25.06:576][696]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-16.25.06:679][696]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.26-16.25.06:679][696]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.25.06:749][696]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2019.11.26-16.25.06:783][697]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2019.11.26-16.25.12:821][ 29]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MotionControllerPawnF366199B428A2C4BDE7738B896D7E343.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2019.11.26-16.25.14:560][131]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.26-16.25.14:582][131]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.25.14:583][131]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.26-16.25.14:590][131]LogPlayLevel: [PlayLevel] Compiling MotionControllerPawn before play...
+[2019.11.26-16.25.14:894][131]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2019.11.26-16.25.14:894][131]LogPlayLevel: PlayLevel: Blueprint regeneration took 311 ms (1 blueprints)
+[2019.11.26-16.25.14:894][131]PIE: New page: PIE session: MainLevel (Nov 26, 2019, 6:25:14 AM)
+[2019.11.26-16.25.14:895][131]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-16.25.14:909][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013823s)
+[2019.11.26-16.25.14:911][131]LogAIModule: Creating AISystem for world MainLevel
+[2019.11.26-16.25.14:912][131]LogPlayLevel: PIE: World Init took: (0.002530s)
+[2019.11.26-16.25.14:912][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.017310s)
+[2019.11.26-16.25.14:950][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2019.11.26-16.25.14:986][131]LogInit: XAudio2 using 'Speakers (Conexant ISST Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.26-16.25.15:006][131]LogInit: FAudioDevice initialized.
+[2019.11.26-16.25.15:022][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-16.25.15:023][131]LogLoad: Game class is 'GameModeBase'
+[2019.11.26-16.25.15:031][131]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2019.11.26-11.25.15
+[2019.11.26-16.25.15:032][131]LogWorld: Bringing up level for play took: 0.008308
+[2019.11.26-16.25.15:033][131]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2019.11.26-16.25.15:039][131]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.932
+[2019.11.26-16.25.15:040][131]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.25.16:662][224]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.25.16:663][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-16.25.16:665][224]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainLevel
+[2019.11.26-16.25.16:685][224]LogSlate: Window 'VRHalloweenPrototype Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.11.26-16.25.16:690][224]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2019.11.26-16.25.16:711][224]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.26-16.25.16:711][224]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.11.26-16.25.16:766][224]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2019.11.26-16.25.16:797][225]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2019.11.26-16.25.20:653][436]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MotionControllerPawn5EF50E6E4812CE7CD7D22F84FB6D637E.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2019.11.26-16.25.27:557][812]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/BP_PickupCube_CandyD2254B8F4B1EFACA14C94493CCD89664.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/VirtualRealityBP/Blueprints/BP_PickupCube_Candy.uasset'
+[2019.11.26-16.25.35:636][284]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2019.11.26-16.25.35:947][284]LogSavePackage: Moving '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Saved/MainLevelA37BFF0F4D40B8285FBD639809FB205B.tmp' to '../../../../../../Users/CBVeLuMe/Desktop/VRUnrealPrototype/VRHalloweenPrototype/Content/Maps/MainLevel.umap'
+[2019.11.26-16.25.35:991][284]LogFileHelpers: Saving map 'MainLevel' took 0.400
+[2019.11.26-16.25.49:724][102]MapCheck: New page: Map Check
+[2019.11.26-16.25.49:750][102]Cmd: MAP REBUILD ALLVISIBLE
+[2019.11.26-16.25.49:750][102]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.11.26-16.25.49:758][102]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=false
+[2019.11.26-16.25.49:830][102]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2019.11.26-16.25.50:133][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:150][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:163][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2019.11.26-16.25.50:163][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2019.11.26-16.25.50:163][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:175][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:187][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:202][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2019.11.26-16.25.50:203][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2019.11.26-16.25.50:203][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:215][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:231][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:251][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:267][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:284][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:298][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:312][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:327][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:341][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:354][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:367][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:383][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:398][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:410][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:423][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:436][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:450][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:463][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:476][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:489][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:503][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:520][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:534][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:550][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:567][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:585][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:602][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.50:618][102]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.26-16.25.57:774][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 64
+[2019.11.26-16.25.57:774][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 63
+[2019.11.26-16.25.57:775][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 62
+[2019.11.26-16.25.57:775][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 61
+[2019.11.26-16.25.57:776][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 60
+[2019.11.26-16.25.57:776][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 59
+[2019.11.26-16.25.57:776][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 58
+[2019.11.26-16.25.57:776][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 57
+[2019.11.26-16.25.57:776][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 56
+[2019.11.26-16.25.57:776][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 55
+[2019.11.26-16.25.57:776][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 54
+[2019.11.26-16.25.57:776][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 53
+[2019.11.26-16.25.57:776][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 52
+[2019.11.26-16.25.57:776][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 51
+[2019.11.26-16.25.57:777][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 50
+[2019.11.26-16.25.57:777][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 49
+[2019.11.26-16.25.57:777][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 48
+[2019.11.26-16.25.57:777][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 47
+[2019.11.26-16.25.57:777][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 46
+[2019.11.26-16.25.57:777][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 45
+[2019.11.26-16.25.57:777][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 44
+[2019.11.26-16.25.57:777][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 43
+[2019.11.26-16.25.57:777][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 42
+[2019.11.26-16.25.57:777][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 41
+[2019.11.26-16.25.57:777][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 40
+[2019.11.26-16.25.57:778][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 39
+[2019.11.26-16.25.57:778][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 38
+[2019.11.26-16.25.57:778][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 37
+[2019.11.26-16.25.57:778][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 36
+[2019.11.26-16.25.57:778][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 35
+[2019.11.26-16.25.57:778][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 34
+[2019.11.26-16.25.57:778][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 33
+[2019.11.26-16.25.57:778][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 32
+[2019.11.26-16.25.57:778][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 31
+[2019.11.26-16.25.57:778][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2019.11.26-16.25.57:779][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2019.11.26-16.25.57:779][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 28
+[2019.11.26-16.25.57:779][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 27
+[2019.11.26-16.25.57:779][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 26
+[2019.11.26-16.25.57:779][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2019.11.26-16.25.57:779][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2019.11.26-16.25.57:779][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2019.11.26-16.25.57:779][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
+[2019.11.26-16.25.57:779][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+[2019.11.26-16.25.57:779][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2019.11.26-16.25.57:779][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 19
+[2019.11.26-16.25.57:780][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 18
+[2019.11.26-16.25.57:780][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2019.11.26-16.25.57:780][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2019.11.26-16.25.57:780][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2019.11.26-16.25.57:780][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2019.11.26-16.25.57:780][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2019.11.26-16.25.57:780][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2019.11.26-16.25.57:780][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2019.11.26-16.25.57:780][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2019.11.26-16.25.57:780][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2019.11.26-16.25.57:781][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2019.11.26-16.25.57:781][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2019.11.26-16.25.57:781][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2019.11.26-16.25.57:781][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2019.11.26-16.25.57:782][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2019.11.26-16.25.57:782][102]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2019.11.26-16.25.57:782][102]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2019.11.26-16.25.57:782][102]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2019.11.26-16.25.57:782][102]TextureStreamingBuild: Display: Compiling optional shaders took 7.653 seconds.
+[2019.11.26-16.25.57:880][102]LogLevel: Display: Export Material TexCoord Scales took 0.098 seconds.
+[2019.11.26-16.25.58:025][102]TextureStreamingBuild: Display: Build Texture Streaming took 0.144 seconds.
+[2019.11.26-16.25.58:076][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2019.11.26-16.25.58:076][102]LightingResults: New page: Lighting Build - Nov 26, 2019, 6:25:58 AM
+[2019.11.26-16.25.58:099][102]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.11.26-16.25.58:106][102]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.11.26-16.25.58:107][102]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.11.26-16.25.58:110][102]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.11.26-16.25.58:110][102]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9956
+[2019.11.26-16.26.02:628][102]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2019.11.26-16.26.02:629][102]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.11.26-16.26.02:629][102]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.11.26-16.26.02:629][102]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.11.26-16.26.02:629][102]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.11.26-16.26.02:629][102]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.11.26-16.26.02:862][102]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.11.26-16.26.02:862][102]MapCheck: New page: MainLevel - Nov 26, 2019, 6:26:02 AM
+[2019.11.26-16.26.02:872][102]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 9.788ms to complete.
+[2019.11.26-16.26.02:874][102]LogEditorBuildUtils: Build time 0:13
+[2019.11.26-16.26.03:417][106]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
