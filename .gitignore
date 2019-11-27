@@ -163,3 +163,4 @@ lint/tmp/
 # lint/reports/
 VRHalloweenPrototype/Saved/Logs/VRHalloweenPrototype.log
 *.log
+*.log
